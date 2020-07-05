@@ -1,0 +1,323 @@
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.csprojAssemblyReference.cache
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.Properties.Resources.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.BaoCaoDoanhThu.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.ChinhSachTra.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.ChiTietHoaDon.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.DanhSachKhachHangNhanPhong.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.DoiMatKhau.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.GiaoDien.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.InDoanhThu.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.InHoaDon.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.NguoiDung.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.DanhSachKhachHangDangKyThuePhong.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.DanhSachSuDungDichVu.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.DichVu.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.DonVi.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.DSPhong.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.LoaiPhong.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.frmMain.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.HoaDon.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.KhachHang.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.LoaiTinhTrangPhong.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.PhieuDangKy.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.PhieuNhanPhong.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.Phong.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.QuiDinh.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.ThietBiTrongPhong.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.TimDichVu.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.TimKhachHang.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.TimMaSuDungDVu.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.TimPhieuNhan.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.TimPhieuThue.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.csproj.GenerateResource.cache
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.csproj.CoreCompileInputs.cache
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.exe
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.pdb
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\QUANLYKHACHSAN.exe.config
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\QUANLYKHACHSAN.exe
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\QUANLYKHACHSAN.pdb
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.csproj.CopyComplete
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.FormDangNhap.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.KhachHangUser.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.BaoCaoDoanhThuUser.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.ChiTietHoaDon_User.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.DangNhapUser.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.DanhSachKhachHangDangKiThuePhong_User.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.DanhSachKhachHangNhanPhongUser.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.DanhSachNguoiDungUser.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.DoiMatKhauUser.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.HoaDonUser.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.LoaiDIchVuUser.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.LoaiPhongUser.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.PhieuDangKi_User.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.PhieuNhanPhongUser.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.QuyDinhUser.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.UserDichVu.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.UserPhong.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\aa-DJ\QUANLYKHACHSAN.resources.dll
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\aa\QUANLYKHACHSAN.resources.dll
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.frmMain.aa-DJ.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.frmMain.aa.resources
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\aa-DJ\QUANLYKHACHSAN.resources.dll
+D:\aaaaaaaa\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\aa\QUANLYKHACHSAN.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\QUANLYKHACHSAN.exe.config
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\QUANLYKHACHSAN.exe
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\QUANLYKHACHSAN.pdb
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\aa-DJ\QUANLYKHACHSAN.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\aa\QUANLYKHACHSAN.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.FormDangNhap.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.Properties.Resources.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.BaoCaoDoanhThu.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.ChinhSachTra.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.ChiTietHoaDon.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.DanhSachKhachHangNhanPhong.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.DoiMatKhau.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.GiaoDien.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.InDoanhThu.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.InHoaDon.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.NguoiDung.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.DanhSachKhachHangDangKyThuePhong.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.DanhSachSuDungDichVu.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.DichVu.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.DSPhong.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.LoaiPhong.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.frmMain.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.HoaDon.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.KhachHang.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.LoaiTinhTrangPhong.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.PhieuDangKy.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.PhieuNhanPhong.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.Phong.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.QuiDinh.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.TimDichVu.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.TimKhachHang.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.TimMaSuDungDVu.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.TimPhieuNhan.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.TimPhieuThue.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.BaoCaoDoanhThuUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.ChiTietHoaDon_User.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.DangNhapUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.DanhSachKhachHangDangKiThuePhong_User.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.DanhSachKhachHangNhanPhongUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.DanhSachNguoiDungUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.DoiMatKhauUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.HoaDonUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.KhachHangUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.LoaiDIchVuUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.LoaiPhongUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.PhieuDangKi_User.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.PhieuNhanPhongUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.QuyDinhUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.UserDichVu.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.UserPhong.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.frmMain.aa-DJ.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.frmMain.aa.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\aa-DJ\QUANLYKHACHSAN.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\aa\QUANLYKHACHSAN.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.csproj.CopyComplete
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.exe
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.pdb
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.QuanLyKhachHang.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.FormQuocTich.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.NhanVienUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.FormDangKi.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.QuocTich.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.FormKhachHang.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\[Sharecode.vn] Code PM quan ly khach san C# + bao cao\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.FormNhanVien.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.FormDangNhap.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.FormKhachHang.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.FormNhanVien.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.FormQuocTich.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.Properties.Resources.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.GiaoDien.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.DanhSachSuDungDichVu.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.DichVu.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.LoaiPhong.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.frmMain.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.LoaiTinhTrangPhong.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.QuocTich.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.BaoCaoDoanhThuUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.ChiTietHoaDon_User.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.DanhSachKhachHangDangKiThuePhong_User.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.DanhSachKhachHangNhanPhongUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.DanhSachNguoiDungUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.DoiMatKhauUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.KhachHangUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.LoaiDIchVuUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.LoaiPhongUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.NhanVienUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.PhieuDangKi_User.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.QuyDinhUser.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.UserDichVu.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.UserPhong.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.frmMain.aa-DJ.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.frmMain.aa.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.exe
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.pdb
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\QUANLYKHACHSAN.exe.config
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\QUANLYKHACHSAN.exe
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\QUANLYKHACHSAN.pdb
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\aa-DJ\QUANLYKHACHSAN.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\aa\QUANLYKHACHSAN.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\aa-DJ\QUANLYKHACHSAN.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\aa\QUANLYKHACHSAN.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.csproj.CopyComplete
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.reportHoaDon.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\RdlCompile.cache
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\RdlCompile.compiled
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\EnvDTE.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\stdole.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\EnvDTE.xml
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.FormPhieuDangKy.resources
+C:\Users\USER\Desktop\btlCnpm_BAnCHinh\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.FormHoTro.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\QUANLYKHACHSAN.exe.config
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\QUANLYKHACHSAN.exe
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\QUANLYKHACHSAN.pdb
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\aa-DJ\QUANLYKHACHSAN.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\aa\QUANLYKHACHSAN.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\EnvDTE.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\stdole.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\EnvDTE.xml
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.csprojAssemblyReference.cache
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.FormDangNhap.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.FormHoTro.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.FormKhachHang.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.FormNhanVien.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.FormPhieuDangKy.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.FormQuocTich.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.Properties.Resources.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.reportHoaDon.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.GiaoDien.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.DanhSachSuDungDichVu.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.DichVu.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.LoaiPhong.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.frmMain.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.LoaiTinhTrangPhong.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.UserInterface.QuocTich.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.BaoCaoDoanhThuUser.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.ChiTietHoaDon_User.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.DanhSachKhachHangDangKiThuePhong_User.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.DanhSachKhachHangNhanPhongUser.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.DanhSachNguoiDungUser.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.DoiMatKhauUser.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.KhachHangUser.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.LoaiDIchVuUser.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.LoaiPhongUser.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.NhanVienUser.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.PhieuDangKi_User.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.QuyDinhUser.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.UserDichVu.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.User.UserPhong.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.frmMain.aa-DJ.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.frmMain.aa.resources
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.csproj.GenerateResource.cache
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\RdlCompile.cache
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\RdlCompile.compiled
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.csproj.CoreCompileInputs.cache
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\aa-DJ\QUANLYKHACHSAN.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\aa\QUANLYKHACHSAN.resources.dll
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.csproj.CopyComplete
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.exe
+D:\Git\DaiTruong\QUANLYKHACHSAN\QUANLYKHACHSAN\obj\Debug\QUANLYKHACHSAN.pdb

@@ -188,5 +188,16 @@ namespace QUANLYKHACHSAN.User
             }    
            
         }
+
+        private void txtTimKiem_Click(object sender, EventArgs e)
+        {
+            txtTimKiem.Text = "";
+
+        }
+
+        private void txtTimKiem_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

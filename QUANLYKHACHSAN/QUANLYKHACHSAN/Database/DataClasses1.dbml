@@ -12,6 +12,13 @@
       <Association Name="Phong_CT_PhieuThue" Member="Phong" ThisKey="MaPhong" OtherKey="MaPhong" Type="Phong" IsForeignKey="true" />
     </Type>
   </Table>
+  <Table Name="dbo.TinhTrangPhong" Member="TinhTrangPhongs">
+    <Type Name="TinhTrangPhong">
+      <Column Name="MaTinhTrang" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenTinhTrang" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TinhTrangPhong_Phong" Member="Phongs" ThisKey="MaTinhTrang" OtherKey="MaTinhTrang" Type="Phong" />
+    </Type>
+  </Table>
   <Table Name="dbo.HoaDon" Member="HoaDons">
     <Type Name="HoaDon">
       <Column Name="MaHoaDon" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
@@ -98,13 +105,6 @@
       <Column Name="TenDangNhap" Type="System.String" DbType="VarChar(20) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
       <Column Name="MatKhau" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
       <Column Name="Quyen" Type="System.Int32" DbType="Int" CanBeNull="true" />
-    </Type>
-  </Table>
-  <Table Name="dbo.TinhTrangPhong" Member="TinhTrangPhongs">
-    <Type Name="TinhTrangPhong">
-      <Column Name="MaTinhTrang" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
-      <Column Name="TenTinhTrang" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
-      <Association Name="TinhTrangPhong_Phong" Member="Phongs" ThisKey="MaTinhTrang" OtherKey="MaTinhTrang" Type="Phong" />
     </Type>
   </Table>
   <Function Name="dbo.insertt" Method="insertt">
@@ -449,6 +449,11 @@
   <Function Name="dbo.delete_PhieuDk" Method="delete_PhieuDk">
     <Parameter Name="sophieuthue" Type="System.Int32" DbType="Int" />
     <Parameter Name="maphieuthue" Type="System.String" DbType="VarChar(10)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.doimk" Method="doimk">
+    <Parameter Name="TenDangNhap" Parameter="tenDangNhap" Type="System.String" DbType="VarChar(20)" />
+    <Parameter Name="MatKhau" Parameter="matKhau" Type="System.String" DbType="NVarChar(50)" />
     <Return Type="System.Int32" />
   </Function>
 </Database>

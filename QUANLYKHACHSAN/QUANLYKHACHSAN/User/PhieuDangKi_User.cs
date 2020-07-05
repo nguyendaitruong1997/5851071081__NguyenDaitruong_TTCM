@@ -192,22 +192,36 @@ namespace QUANLYKHACHSAN.User
             }
            else if(i==2)
             {
-                DialogResult xoa = MessageBox.Show("Bạn có muốn sửa không?", "", MessageBoxButtons.YesNo);
-                if (xoa == DialogResult.Yes)
+                HoaDon hoaDon = dt.HoaDons.Where(s => s.MaPhieuThue == txtMaPhieuThue.Text).FirstOrDefault();
+                if(hoaDon==null)
                 {
 
-                    dt.update_PhieuThue(txtMaPhieuThue.Text, comboMaNV.SelectedValue.ToString(),
-                        cmbMaKH.SelectedValue.ToString(), Convert.ToInt32
-                        (txtSoNguoiO.Text), comboBox1.Text);
-                    dt.update_CTPhieuThue(Convert.ToInt32(txtMaChiTiet.Text), txtMaPhieuThue.Text, cmbMaPHong.SelectedValue.ToString(), Convert.ToDateTime
-                         (dateNgayDangKy.Value.ToString()), Convert.ToDateTime(dateTimeNgayNhan.Value.ToString()));
-                    // dt.UpdateThemPhieuDangKi(Convert.ToInt32(txtMaChiTiet.Text), txtMaPhieuThue.Text,cmbMaPHong.SelectedValue.ToString()
-                    //  ,Convert.ToDateTime(dateNgayDangKy.Value.ToString()), Convert.ToDateTime(dateTimeNgayNhan.Value.ToString()));
+                    DialogResult xoa = MessageBox.Show("Bạn có muốn sửa không?", "", MessageBoxButtons.YesNo);
+                    if (xoa == DialogResult.Yes)
+                    {
 
-                    MessageBox.Show("Sủa Thành Công");               
+                        dt.update_PhieuThue(txtMaPhieuThue.Text, comboMaNV.SelectedValue.ToString(),
+                            cmbMaKH.SelectedValue.ToString(), Convert.ToInt32
+                            (txtSoNguoiO.Text), comboBox1.Text);
+                        dt.update_CTPhieuThue(Convert.ToInt32(txtMaChiTiet.Text), txtMaPhieuThue.Text, cmbMaPHong.SelectedValue.ToString(), Convert.ToDateTime
+                             (dateNgayDangKy.Value.ToString()), Convert.ToDateTime(dateTimeNgayNhan.Value.ToString()));
+                        // dt.UpdateThemPhieuDangKi(Convert.ToInt32(txtMaChiTiet.Text), txtMaPhieuThue.Text,cmbMaPHong.SelectedValue.ToString()
+                        //  ,Convert.ToDateTime(dateNgayDangKy.Value.ToString()), Convert.ToDateTime(dateTimeNgayNhan.Value.ToString()));
+
+                        MessageBox.Show("Sủa Thành Công");
+
+
+                    }
+                   
 
 
                 }
+                else
+                {
+                    MessageBox.Show("Không Sửa Được","Thông báo !",MessageBoxButtons.OK);
+
+                }
+
 
 
 
@@ -380,7 +394,19 @@ namespace QUANLYKHACHSAN.User
                 } 
                 else
                 {
-                    dt.delete_PhieuDk(Convert.ToInt32(txtMaChiTiet.Text), txtMaPhieuThue.Text);
+                    DialogResult xoa = MessageBox.Show("bạn có muốn xóa không?", "", MessageBoxButtons.YesNo);
+                    if (xoa == DialogResult.Yes)
+                    {
+                        string maphong;
+                        maphong = cmbMaPHong.Text;
+                        dt.delete_PhieuDk(Convert.ToInt32(txtMaChiTiet.Text), txtMaPhieuThue.Text);
+
+                        // maphong = cmbMaPHong.Text;
+                        dt.update_Phong(maphong, "TT4", null);
+
+                    }
+                       
+
 
                 }    
                

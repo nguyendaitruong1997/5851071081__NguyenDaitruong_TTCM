@@ -115,6 +115,7 @@
             this.txtXacNhanMatKhau.Size = new System.Drawing.Size(164, 26);
             this.txtXacNhanMatKhau.TabIndex = 54;
             this.txtXacNhanMatKhau.UseSystemPasswordChar = true;
+            this.txtXacNhanMatKhau.TextChanged += new System.EventHandler(this.txtXacNhanMatKhau_TextChanged);
             // 
             // txtMatKhauMoi
             // 
@@ -209,7 +210,6 @@
             this.textBoxX1.Name = "textBoxX1";
             this.textBoxX1.Size = new System.Drawing.Size(164, 26);
             this.textBoxX1.TabIndex = 61;
-            this.textBoxX1.UseSystemPasswordChar = true;
             // 
             // DoiMatKhauUser
             // 

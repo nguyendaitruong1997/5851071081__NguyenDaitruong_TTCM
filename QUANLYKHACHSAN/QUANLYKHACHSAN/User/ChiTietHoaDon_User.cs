@@ -205,10 +205,20 @@ namespace QUANLYKHACHSAN.User
                 }
                 else
                 {
-                    dt.themhd(Convert.ToInt32(txtMaHoaDon.Text), cmbNhanVien.SelectedValue.ToString(), cmbMaKH.SelectedValue.ToString(),
-                     cmbMaPhieuThue.SelectedValue.ToString(), Convert.ToInt32(txtSoNgay.Text), Convert.ToInt32(tt), Convert.ToDateTime(dtNgayTraPhong.Text));
-                    MessageBox.Show("Bạn đã thêm thành công");
-                    s = cmbMaPhieuThue.SelectedValue.ToString();
+                    HoaDon hoaDon = dt.HoaDons.Where(s => s.MaHoaDon == Convert.ToInt32(txtMaHoaDon.Text)).FirstOrDefault();
+                    if(hoaDon!=null)
+                    {
+                        MessageBox.Show("Hóa Đơn Đã Tồn Tại Vui Lòng Nhập Mã Hóa Đơn Khác !", "Thông Báo!", MessageBoxButtons.OK);
+                    }
+                    else
+                    {
+                        dt.themhd(Convert.ToInt32(txtMaHoaDon.Text), cmbNhanVien.SelectedValue.ToString(), cmbMaKH.SelectedValue.ToString(),
+                   cmbMaPhieuThue.SelectedValue.ToString(), Convert.ToInt32(txtSoNgay.Text), Convert.ToInt32(tt), Convert.ToDateTime(dtNgayTraPhong.Text));
+                        MessageBox.Show("Bạn đã thêm thành công");
+                        s = cmbMaPhieuThue.SelectedValue.ToString();
+
+                    }
+                  
 
 
 
@@ -470,29 +480,29 @@ namespace QUANLYKHACHSAN.User
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
-            if(txtMaHoaDon.Text=="")
+            if (txtMaHoaDon.Text == "")
             {
                 MessageBox.Show("Bạn chưa chọn hóa đơn xóa !!", "Thông Báo", MessageBoxButtons.OK);
 
 
 
-            } 
+            }
             else
             {
-                DialogResult xoa = MessageBox.Show("bạn có muốn xóa không?", "", MessageBoxButtons.YesNo);
+                DialogResult xoa = MessageBox.Show("bạn có chắc muốn xóa không?", "", MessageBoxButtons.YesNo);
                 if (xoa == DialogResult.Yes)
                 {
                     var data = dt.deleteHoaDon(Convert.ToInt32(txtMaHoaDon.Text));
 
                     CT_PhieuThue MaLoaiPhhong = dt.CT_PhieuThues.Where(p => p.MaPhieuThue == cmbMaPhieuThue.SelectedValue.ToString()).FirstOrDefault();
 
-                    dt.update_TinhTrangPhongCuaPhong(MaLoaiPhhong.MaPhong.ToString(), "TT2", "Không Trống");
+                    dt.update_TinhTrangPhongCuaPhong(MaLoaiPhhong.MaPhong.ToString(), "TT2", null);
                     ChiTietHoaDon_User_Load(sender, e);
 
                 }
 
-            }    
-           
+            }
+
         }
     }
 }

@@ -33,6 +33,9 @@ namespace QUANLYKHACHSAN.Database
     partial void InsertCT_PhieuThue(CT_PhieuThue instance);
     partial void UpdateCT_PhieuThue(CT_PhieuThue instance);
     partial void DeleteCT_PhieuThue(CT_PhieuThue instance);
+    partial void InsertTinhTrangPhong(TinhTrangPhong instance);
+    partial void UpdateTinhTrangPhong(TinhTrangPhong instance);
+    partial void DeleteTinhTrangPhong(TinhTrangPhong instance);
     partial void InsertHoaDon(HoaDon instance);
     partial void UpdateHoaDon(HoaDon instance);
     partial void DeleteHoaDon(HoaDon instance);
@@ -57,9 +60,6 @@ namespace QUANLYKHACHSAN.Database
     partial void InsertTaiKhoan(TaiKhoan instance);
     partial void UpdateTaiKhoan(TaiKhoan instance);
     partial void DeleteTaiKhoan(TaiKhoan instance);
-    partial void InsertTinhTrangPhong(TinhTrangPhong instance);
-    partial void UpdateTinhTrangPhong(TinhTrangPhong instance);
-    partial void DeleteTinhTrangPhong(TinhTrangPhong instance);
     #endregion
 		
 		public DataClasses1DataContext() : 
@@ -97,6 +97,14 @@ namespace QUANLYKHACHSAN.Database
 			get
 			{
 				return this.GetTable<CT_PhieuThue>();
+			}
+		}
+		
+		public System.Data.Linq.Table<TinhTrangPhong> TinhTrangPhongs
+		{
+			get
+			{
+				return this.GetTable<TinhTrangPhong>();
 			}
 		}
 		
@@ -161,14 +169,6 @@ namespace QUANLYKHACHSAN.Database
 			get
 			{
 				return this.GetTable<TaiKhoan>();
-			}
-		}
-		
-		public System.Data.Linq.Table<TinhTrangPhong> TinhTrangPhongs
-		{
-			get
-			{
-				return this.GetTable<TinhTrangPhong>();
 			}
 		}
 		
@@ -485,6 +485,13 @@ namespace QUANLYKHACHSAN.Database
 			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), sophieuthue, maphieuthue);
 			return ((int)(result.ReturnValue));
 		}
+		
+		[global::System.Data.Linq.Mapping.FunctionAttribute(Name="dbo.doimk")]
+		public int doimk([global::System.Data.Linq.Mapping.ParameterAttribute(Name="TenDangNhap", DbType="VarChar(20)")] string tenDangNhap, [global::System.Data.Linq.Mapping.ParameterAttribute(Name="MatKhau", DbType="NVarChar(50)")] string matKhau)
+		{
+			IExecuteResult result = this.ExecuteMethodCall(this, ((MethodInfo)(MethodInfo.GetCurrentMethod())), tenDangNhap, matKhau);
+			return ((int)(result.ReturnValue));
+		}
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.CT_PhieuThue")]
@@ -748,6 +755,120 @@ namespace QUANLYKHACHSAN.Database
 			{
 				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
+		}
+	}
+	
+	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.TinhTrangPhong")]
+	public partial class TinhTrangPhong : INotifyPropertyChanging, INotifyPropertyChanged
+	{
+		
+		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
+		
+		private string _MaTinhTrang;
+		
+		private string _TenTinhTrang;
+		
+		private EntitySet<Phong> _Phongs;
+		
+    #region Extensibility Method Definitions
+    partial void OnLoaded();
+    partial void OnValidate(System.Data.Linq.ChangeAction action);
+    partial void OnCreated();
+    partial void OnMaTinhTrangChanging(string value);
+    partial void OnMaTinhTrangChanged();
+    partial void OnTenTinhTrangChanging(string value);
+    partial void OnTenTinhTrangChanged();
+    #endregion
+		
+		public TinhTrangPhong()
+		{
+			this._Phongs = new EntitySet<Phong>(new Action<Phong>(this.attach_Phongs), new Action<Phong>(this.detach_Phongs));
+			OnCreated();
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaTinhTrang", DbType="VarChar(50) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
+		public string MaTinhTrang
+		{
+			get
+			{
+				return this._MaTinhTrang;
+			}
+			set
+			{
+				if ((this._MaTinhTrang != value))
+				{
+					this.OnMaTinhTrangChanging(value);
+					this.SendPropertyChanging();
+					this._MaTinhTrang = value;
+					this.SendPropertyChanged("MaTinhTrang");
+					this.OnMaTinhTrangChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TenTinhTrang", DbType="NVarChar(50)")]
+		public string TenTinhTrang
+		{
+			get
+			{
+				return this._TenTinhTrang;
+			}
+			set
+			{
+				if ((this._TenTinhTrang != value))
+				{
+					this.OnTenTinhTrangChanging(value);
+					this.SendPropertyChanging();
+					this._TenTinhTrang = value;
+					this.SendPropertyChanged("TenTinhTrang");
+					this.OnTenTinhTrangChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="TinhTrangPhong_Phong", Storage="_Phongs", ThisKey="MaTinhTrang", OtherKey="MaTinhTrang")]
+		public EntitySet<Phong> Phongs
+		{
+			get
+			{
+				return this._Phongs;
+			}
+			set
+			{
+				this._Phongs.Assign(value);
+			}
+		}
+		
+		public event PropertyChangingEventHandler PropertyChanging;
+		
+		public event PropertyChangedEventHandler PropertyChanged;
+		
+		protected virtual void SendPropertyChanging()
+		{
+			if ((this.PropertyChanging != null))
+			{
+				this.PropertyChanging(this, emptyChangingEventArgs);
+			}
+		}
+		
+		protected virtual void SendPropertyChanged(String propertyName)
+		{
+			if ((this.PropertyChanged != null))
+			{
+				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+			}
+		}
+		
+		private void attach_Phongs(Phong entity)
+		{
+			this.SendPropertyChanging();
+			entity.TinhTrangPhong = this;
+		}
+		
+		private void detach_Phongs(Phong entity)
+		{
+			this.SendPropertyChanging();
+			entity.TinhTrangPhong = null;
 		}
 	}
 	
@@ -2568,120 +2689,6 @@ namespace QUANLYKHACHSAN.Database
 			{
 				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
-		}
-	}
-	
-	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.TinhTrangPhong")]
-	public partial class TinhTrangPhong : INotifyPropertyChanging, INotifyPropertyChanged
-	{
-		
-		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
-		
-		private string _MaTinhTrang;
-		
-		private string _TenTinhTrang;
-		
-		private EntitySet<Phong> _Phongs;
-		
-    #region Extensibility Method Definitions
-    partial void OnLoaded();
-    partial void OnValidate(System.Data.Linq.ChangeAction action);
-    partial void OnCreated();
-    partial void OnMaTinhTrangChanging(string value);
-    partial void OnMaTinhTrangChanged();
-    partial void OnTenTinhTrangChanging(string value);
-    partial void OnTenTinhTrangChanged();
-    #endregion
-		
-		public TinhTrangPhong()
-		{
-			this._Phongs = new EntitySet<Phong>(new Action<Phong>(this.attach_Phongs), new Action<Phong>(this.detach_Phongs));
-			OnCreated();
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_MaTinhTrang", DbType="VarChar(50) NOT NULL", CanBeNull=false, IsPrimaryKey=true)]
-		public string MaTinhTrang
-		{
-			get
-			{
-				return this._MaTinhTrang;
-			}
-			set
-			{
-				if ((this._MaTinhTrang != value))
-				{
-					this.OnMaTinhTrangChanging(value);
-					this.SendPropertyChanging();
-					this._MaTinhTrang = value;
-					this.SendPropertyChanged("MaTinhTrang");
-					this.OnMaTinhTrangChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_TenTinhTrang", DbType="NVarChar(50)")]
-		public string TenTinhTrang
-		{
-			get
-			{
-				return this._TenTinhTrang;
-			}
-			set
-			{
-				if ((this._TenTinhTrang != value))
-				{
-					this.OnTenTinhTrangChanging(value);
-					this.SendPropertyChanging();
-					this._TenTinhTrang = value;
-					this.SendPropertyChanged("TenTinhTrang");
-					this.OnTenTinhTrangChanged();
-				}
-			}
-		}
-		
-		[global::System.Data.Linq.Mapping.AssociationAttribute(Name="TinhTrangPhong_Phong", Storage="_Phongs", ThisKey="MaTinhTrang", OtherKey="MaTinhTrang")]
-		public EntitySet<Phong> Phongs
-		{
-			get
-			{
-				return this._Phongs;
-			}
-			set
-			{
-				this._Phongs.Assign(value);
-			}
-		}
-		
-		public event PropertyChangingEventHandler PropertyChanging;
-		
-		public event PropertyChangedEventHandler PropertyChanged;
-		
-		protected virtual void SendPropertyChanging()
-		{
-			if ((this.PropertyChanging != null))
-			{
-				this.PropertyChanging(this, emptyChangingEventArgs);
-			}
-		}
-		
-		protected virtual void SendPropertyChanged(String propertyName)
-		{
-			if ((this.PropertyChanged != null))
-			{
-				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-			}
-		}
-		
-		private void attach_Phongs(Phong entity)
-		{
-			this.SendPropertyChanging();
-			entity.TinhTrangPhong = this;
-		}
-		
-		private void detach_Phongs(Phong entity)
-		{
-			this.SendPropertyChanging();
-			entity.TinhTrangPhong = null;
 		}
 	}
 	

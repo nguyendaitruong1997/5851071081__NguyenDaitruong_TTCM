@@ -112,14 +112,24 @@ namespace QUANLYKHACHSAN.User
                 }  
                 else
                 {
-                    DialogResult xoa = MessageBox.Show("bạn có muốn Thêm không?", "", MessageBoxButtons.YesNo);
-                    if (xoa == DialogResult.Yes)
+                    KhachHang khachHang = dt.KhachHangs.Where(s => s.MaKhachHang == txtMaKhachHang.Text).FirstOrDefault();
+                    if(khachHang !=null)
                     {
-                        dt.themkhachhangs(txtMaKhachHang.Text, cmbQuocTich.SelectedValue.ToString(), txtTenKhachHang.Text, txtCMND.Text, cbGioiTinh.Text, txtDiaChi.Text, txtSdt.Text);
+                        MessageBox.Show("Khách Hàng đã tồn tại vui lòng nhập mã khách hàng khác !!");
+                    }    
+                    else
+                    {
+                        DialogResult xoa = MessageBox.Show("bạn có muốn Thêm không?", "", MessageBoxButtons.YesNo);
+                        if (xoa == DialogResult.Yes)
+                        {
+                            dt.themkhachhangs(txtMaKhachHang.Text, cmbQuocTich.SelectedValue.ToString(), txtTenKhachHang.Text, txtCMND.Text, cbGioiTinh.Text, txtDiaChi.Text, txtSdt.Text);
 
-                        MessageBox.Show("Thêm Thành Công ?", "Thông Báo", MessageBoxButtons.OK);
+                            MessageBox.Show("Thêm Thành Công ?", "Thông Báo", MessageBoxButtons.OK);
 
-                    }
+                        }
+
+                    }    
+                  
 
                 }    
                
@@ -127,6 +137,9 @@ namespace QUANLYKHACHSAN.User
             }
             else if (i == 2)
             {
+
+               
+
                 if (txtMaKhachHang.Text == "" || cmbQuocTich.SelectedValue.ToString() == "" || txtTenKhachHang.Text == "" || txtCMND.Text == "" || cbGioiTinh.Text == "" || txtDiaChi.Text == "" || txtSdt.Text == "")
                 {
                     MessageBox.Show("Bạn chưa nhập đầy đủ thông tin !", "Thông Báo", MessageBoxButtons.OK);
@@ -134,6 +147,12 @@ namespace QUANLYKHACHSAN.User
                 }
                 else
                 {
+                    PhieuThuePhong phieuThuePhong = dt.PhieuThuePhongs.Where(s => s.MaKhachHang == txtMaKhachHang.Text).FirstOrDefault();
+                    if(phieuThuePhong!=null)
+                    {
+                        MessageBox.Show(" Không cho sửa ?", "", MessageBoxButtons.OK);
+
+                    }    
                     DialogResult xoa = MessageBox.Show("bạn có muốn sửa không?", "", MessageBoxButtons.YesNo);
                     if (xoa == DialogResult.Yes)
                     {
@@ -188,13 +207,24 @@ namespace QUANLYKHACHSAN.User
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
-            DialogResult xoa = MessageBox.Show("Bạn có muốn xóa không?", "", MessageBoxButtons.YesNo);
-            if (xoa == DialogResult.Yes)
+            PhieuThuePhong phieuThuePhong = dt.PhieuThuePhongs.Where(s => s.MaKhachHang == txtMaKhachHang.Text).FirstOrDefault();
+            if(phieuThuePhong==null)
             {
-                var data = dt.xoakhachhang(txtMaKhachHang.Text);
+                DialogResult xoa = MessageBox.Show("Bạn có muốn xóa không?", "", MessageBoxButtons.YesNo);
+                if (xoa == DialogResult.Yes)
+                {
+                    var data = dt.xoakhachhang(txtMaKhachHang.Text);
+
+                }
+                datagKhachhang.DataSource = new DataClasses1DataContext().KhachHangs.ToList();
 
             }
-            datagKhachhang.DataSource = new DataClasses1DataContext().KhachHangs.ToList();
+            else
+            {
+                MessageBox.Show("Không xóa được !");
+            }
+
+          
         }
 
         private void btnHuy_Click(object sender, EventArgs e)

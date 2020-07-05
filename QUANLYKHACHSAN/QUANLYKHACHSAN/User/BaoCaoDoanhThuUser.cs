@@ -64,7 +64,13 @@ namespace QUANLYKHACHSAN.User
 
         private void toolStripTrangIn_Click(object sender, EventArgs e)
         {
-             Microsoft.Office.Interop.Excel._Application app = new Microsoft.Office.Interop.Excel.Application();
+             
+          
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Microsoft.Office.Interop.Excel._Application app = new Microsoft.Office.Interop.Excel.Application();
             Microsoft.Office.Interop.Excel._Workbook workbook = app.Workbooks.Add(Type.Missing);
             Microsoft.Office.Interop.Excel._Worksheet worksheet = null;
             worksheet = workbook.Sheets["Sheet1"];
@@ -72,13 +78,13 @@ namespace QUANLYKHACHSAN.User
             app.Visible = true;
             // Dua du lieu vao excel
             worksheet.Cells[1, 4] = "Báo Cáo Doanh Thu Theo Loại Phòng";
-            worksheet.Cells[2, 4] = "Tháng:"+txtThang.Value.ToString();
+            worksheet.Cells[2, 4] = "Tháng:" + txtThang.Value.ToString();
             worksheet.Cells[3, 4] = "STT";
             worksheet.Cells[3, 5] = "Tỉ Lệ";
             worksheet.Cells[3, 6] = "Loại Phòng";
             worksheet.Cells[3, 7] = "Doanh Thu";
 
-            for (int i = 0; i < dataDoanhThu.RowCount-1; i++)
+            for (int i = 0; i < dataDoanhThu.RowCount - 1; i++)
             {
                 for (int j = 0; j < 3; j++)
                 {
@@ -86,8 +92,7 @@ namespace QUANLYKHACHSAN.User
                     worksheet.Cells[i + 4, j + 5] = dataDoanhThu.Rows[i].Cells[j].Value;
                 }
             }
-           
-          
+
         }
     }
 }
