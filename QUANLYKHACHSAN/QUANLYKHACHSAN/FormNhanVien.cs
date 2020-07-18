@@ -23,24 +23,54 @@ namespace QUANLYKHACHSAN
         {
             if (i == 1)
             {
-                DialogResult xoa = MessageBox.Show("bạn có muốn Thêm không?", "", MessageBoxButtons.YesNo);
-                if (xoa == DialogResult.Yes)
+                if (txtMaNhanVien.Text == "" || txtTenNhanVien.Text == "" || cbbGioiTinh.Text == "" ||
+                        txtQueQuan.Text == "" || txtNgaySinh.Text == "")
                 {
-                    var data = dt.themnhanvien(txtMaNhanVien.Text, txtTenNhanVien.Text, cbbGioiTinh.Text, txtQueQuan.Text, txtNgaySinh.Text);
-                    MessageBox.Show("Thêm Thành Công ?", "Thông Báo", MessageBoxButtons.OK);
+                    MessageBox.Show("Bạn Hãy Nhập Đẩy Đủ Thông Tin!", "Thông Báo", MessageBoxButtons.OK);
+                }
+                else
+                {
+                    var nv = dt.NhanViens.Where(s => s.MaNhanVien == txtMaNhanVien.Text.Trim()).FirstOrDefault();
+                    if (nv == null)
+                    {
+                        DialogResult xoa = MessageBox.Show("bạn có muốn Thêm không?", "", MessageBoxButtons.YesNo);
+                        if (xoa == DialogResult.Yes)
+                        {
+                            var data = dt.themnhanvien(txtMaNhanVien.Text, txtTenNhanVien.Text, cbbGioiTinh.Text, txtQueQuan.Text, txtNgaySinh.Text);
+                            MessageBox.Show("Thêm Thành Công ?", "Thông Báo", MessageBoxButtons.OK);
+
+                        }
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Nhân Viên Đã Tồn Tại !", "Thông Báo", MessageBoxButtons.OK);
+                    }
 
                 }
+
+
 
             }
             else if (i == 2)
             {
-                DialogResult xoa = MessageBox.Show("bạn có muốn sửa không?", "", MessageBoxButtons.YesNo);
-                if (xoa == DialogResult.Yes)
+                if (txtMaNhanVien.Text == "" || txtTenNhanVien.Text == "" || cbbGioiTinh.Text == "" ||
+                        txtQueQuan.Text == "" || txtNgaySinh.Text == "")
                 {
-                    var data = dt.suanhanvien(txtMaNhanVien.Text, txtTenNhanVien.Text, cbbGioiTinh.Text, txtQueQuan.Text, txtNgaySinh.Text);
-                    MessageBox.Show("Sửa Thành Công ?", "Thông Báo", MessageBoxButtons.OK);
+                    MessageBox.Show("Bạn Hãy Nhập Đẩy Đủ Thông Tin!", "Thông Báo", MessageBoxButtons.OK);
+                }
+                else
+                {
+                    DialogResult xoa = MessageBox.Show("bạn có muốn sửa không?", "", MessageBoxButtons.YesNo);
+                    if (xoa == DialogResult.Yes)
+                    {
+                        var data = dt.suanhanvien(txtMaNhanVien.Text, txtTenNhanVien.Text, cbbGioiTinh.Text, txtQueQuan.Text, txtNgaySinh.Text);
+                        MessageBox.Show("Sửa Thành Công ?", "Thông Báo", MessageBoxButtons.OK);
+
+                    }
 
                 }
+
 
 
 
@@ -50,6 +80,10 @@ namespace QUANLYKHACHSAN
 
 
 
+        }
+        public void seaching_nv(string s)
+        {
+            dtgNhanVien.DataSource = dt.seaching_nv(s);
         }
         public void notenable()
         {
@@ -97,12 +131,31 @@ namespace QUANLYKHACHSAN
 
 
 
-            DialogResult xoa = MessageBox.Show("bạn có muốn xóa không?", "", MessageBoxButtons.YesNo);
-            if (xoa == DialogResult.Yes)
+            if (txtMaNhanVien.Text != null)
             {
-                var data = dt.xoanhanvienn(txtMaNhanVien.Text);
+                PhieuThuePhong phieuThuePhong = dt.PhieuThuePhongs.Where(s => s.MaNhanVien == txtMaNhanVien.Text).FirstOrDefault();
+                if (phieuThuePhong == null)
+                {
+                    DialogResult xoa = MessageBox.Show("bạn có muốn xóa không?", "", MessageBoxButtons.YesNo);
+                    if (xoa == DialogResult.Yes)
+                    {
+                        var data = dt.xoanhanvienn(txtMaNhanVien.Text);
+
+                    }
+
+                }
+                else
+                {
+                    MessageBox.Show("Không Thể Xóa !");
+                }
+
 
             }
+            else
+            {
+                MessageBox.Show("Bạn Chưa Chọn Nhân Viên Xóa");
+            }
+
             dtgNhanVien.DataSource = new DataClasses1DataContext().NhanViens.ToList();
         }
 
@@ -188,6 +241,11 @@ namespace QUANLYKHACHSAN
 
             }    
           
+        }
+
+        private void txtTimKiem_TextChanged(object sender, EventArgs e)
+        {
+            seaching_nv(txtTimKiem.Text.Trim());
         }
     }
 }

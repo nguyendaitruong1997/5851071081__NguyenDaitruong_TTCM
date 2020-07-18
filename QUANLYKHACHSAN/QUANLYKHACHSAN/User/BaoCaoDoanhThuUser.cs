@@ -84,7 +84,7 @@ namespace QUANLYKHACHSAN.User
             worksheet.Cells[3, 6] = "Loại Phòng";
             worksheet.Cells[3, 7] = "Doanh Thu";
 
-            for (int i = 0; i < dataDoanhThu.RowCount - 1; i++)
+            for (int i = 0; i < dataDoanhThu.RowCount-1 ; i++)
             {
                 for (int j = 0; j < 3; j++)
                 {

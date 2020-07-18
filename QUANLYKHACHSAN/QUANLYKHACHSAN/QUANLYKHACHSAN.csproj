@@ -99,6 +99,12 @@
     <Compile Include="FormDangNhap.Designer.cs">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormDK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDK.Designer.cs">
+      <DependentUpon>FormDK.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormHoTro.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,11 +148,11 @@
       <DependentUpon>reportHoaDon.cs</DependentUpon>
     </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
-    <Compile Include="UserInterface\QuocTich.cs">
+    <Compile Include="UserInterface\LoaiDichVu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserInterface\QuocTich.Designer.cs">
-      <DependentUpon>QuocTich.cs</DependentUpon>
+    <Compile Include="UserInterface\LoaiDichVu.Designer.cs">
+      <DependentUpon>LoaiDichVu.cs</DependentUpon>
     </Compile>
     <Compile Include="User\BaoCaoDoanhThuUser.cs">
       <SubType>UserControl</SubType>
@@ -235,6 +241,9 @@
     <EmbeddedResource Include="FormDangNhap.resx">
       <DependentUpon>FormDangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormDK.resx">
+      <DependentUpon>FormDK.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormHoTro.resx">
       <DependentUpon>FormHoTro.cs</DependentUpon>
     </EmbeddedResource>
@@ -278,6 +287,9 @@
       <DependentUpon>DichVu.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserInterface\LoaiDichVu.resx">
+      <DependentUpon>LoaiDichVu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserInterface\LoaiPhong.resx">
       <SubType>Designer</SubType>
       <DependentUpon>LoaiPhong.cs</DependentUpon>
@@ -289,9 +301,6 @@
     <EmbeddedResource Include="UserInterface\LoaiTinhTrangPhong.resx">
       <SubType>Designer</SubType>
       <DependentUpon>LoaiTinhTrangPhong.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserInterface\QuocTich.resx">
-      <DependentUpon>QuocTich.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User\BaoCaoDoanhThuUser.resx">
       <DependentUpon>BaoCaoDoanhThuUser.cs</DependentUpon>

@@ -95,7 +95,7 @@ namespace QUANLYKHACHSAN
            
             else
             {
-                MessageBox.Show("kkk");
+              
                 MessageBox.Show("Tài khoản Hoặc Mật Khẩu Không Đúng", "Thông Báo", MessageBoxButtons.OK);
                 return false;
 
@@ -107,12 +107,16 @@ namespace QUANLYKHACHSAN
 
         private void btnQuenMatKhau_Click(object sender, EventArgs e)
         {
-            
+            panelDangNhap.Visible = false;
+            panel_DoiMatKhau.Visible = false;
+            pn_QuenMK.Visible = true;
         }
 
         private void FormDangNhap_Load(object sender, EventArgs e)
         {
-
+            panelDangNhap.Visible = true;
+            panel_DoiMatKhau.Visible = false;
+            pn_QuenMK.Visible = false;
         }
 
         private void txtTenDangNhap_Click(object sender, EventArgs e)
@@ -129,6 +133,100 @@ namespace QUANLYKHACHSAN
         {
             txtMatKhau.Text = "";
 
+        }
+
+        private void bt_QuayLai_Click(object sender, EventArgs e)
+        {
+
+            panelDangNhap.Visible = true;
+            panel_DoiMatKhau.Visible = false;
+            pn_QuenMK.Visible = false;
+
+
+        }
+
+        private void bunifuThinHoTro_Click(object sender, EventArgs e)
+        {
+            var data = dt.TaiKhoans.Where(s => s.TenDangNhap == txtUserPhanQuenMK.Text.Trim())
+                .Where(s => s.Gmail == txtSoDienThoaiPhanQuenMK.Text.Trim()).FirstOrDefault();
+            if(data==null)
+            {
+                MessageBox.Show("Không có tài khoản này !");
+
+            }
+            else
+            {
+
+                string TKdoimk ="";
+                TKdoimk = txtUserPhanQuenMK.Text.Trim();
+
+                try
+                {
+                    string bodyemail = "Xin Chào bạn Chúng Tôi Đã Nhận Được Yêu Cầu Cần Hỗ Trợ Của Bạn: \n\n"
++ "\tChúng Tôi Sẽ Hướng Dẫn Bạn Cách Đổi Mật Khẩu\n"
++ "Bước 1: Tại Phần Đổi Mật Khẩu, Bạn Nhập Tên Tài Khoản Của Bạn\n"
++ "Bước 2: Tiếp Theo Bạn Cần Nhập Mã Xác Minh \n"
++ "\t\t=> Mã Xác Minh Của Bạn Là: " + data.MatKhau.Remove(6, 26)
++ "\nBước 3: Nhập Mật Khẩu Mới Của Bạn, Xong Bạn Click Vào Đổi Mật Khẩu\n"
++ "Chúc bạn thành công";
+                    MailMessage mail = new MailMessage();
+                    mail.From = new MailAddress("dhvsport00@gmail.com");
+                    mail.To.Add(data.Gmail);
+                    mail.Subject = "Khách Sạn Trưởng Đẹp TRai";
+
+                    mail.Body = bodyemail;
+                    SmtpClient smptClient = new SmtpClient();
+                    smptClient.Host = "smtp.gmail.com";
+                    System.Net.NetworkCredential credential = new NetworkCredential();
+                    credential.UserName = "dhvsport00@gmail.com";
+                    credential.Password = "DHVSport450LeVanViet";
+                    smptClient.Credentials = credential;
+                    smptClient.Port = 587;
+                    smptClient.EnableSsl = true;
+                    smptClient.Send(mail);
+                    MessageBox.Show("Đã gửi mã xác minh về Email\nMời Kiểm Tra Để Đổi Mật Khẩu", "Thông báo", MessageBoxButtons.OK);
+                    panelDangNhap.Visible = false;
+                    panel_DoiMatKhau.Visible = true;
+                    pn_QuenMK.Visible = false;
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Kiểm tra lại mạng hoặc thông tin Email\nHoặc liên hệ với người quản trị", "Lỗi");
+                }
+            }
+        }
+
+        private void bt_DoiMoiMK_Click(object sender, EventArgs e)
+        {
+            if(txt_TenTaiKhoanPhanDoiMatKhau.Text=="" || txt_TenTaiKhoanPhanDoiMatKhau.Text.Trim()==""
+                || txt_MatKhauMOi.Text=="")
+            {
+
+            }
+            else
+            {
+                var Tk = dt.TaiKhoans.Where(s => s.TenDangNhap == txt_TenTaiKhoanPhanDoiMatKhau.Text.Trim())
+                    .Where(s => s.MatKhau == txt_MaXacMinh.Text.Trim().Remove(6, 26));
+                if(Tk==null)
+                {
+                    MessageBox.Show("Thông tin sai");
+
+                }  
+                else if( Tk!=null)
+                {
+                    dt.update_mk(txt_TenTaiKhoanPhanDoiMatKhau.Text, MaHoa( txt_MatKhauMOi.Text.Trim()));
+                    MessageBox.Show("Đổi mk thành công");
+                    panelDangNhap.Visible = true;
+                    panel_DoiMatKhau.Visible = false;
+                    pn_QuenMK.Visible = false;
+                }    
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormDK formDK = new FormDK();
+            formDK.ShowDialog();
         }
     }
 }

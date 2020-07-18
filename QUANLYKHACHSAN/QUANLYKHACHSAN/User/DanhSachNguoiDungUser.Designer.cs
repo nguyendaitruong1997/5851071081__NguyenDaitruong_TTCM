@@ -53,9 +53,13 @@
             this.panelEx1 = new DevComponents.DotNetBar.PanelEx();
             this.cbLoaiNguoiDung = new System.Windows.Forms.ComboBox();
             this.dtNguoiDung = new System.Windows.Forms.DataGridView();
+            this.labelX5 = new DevComponents.DotNetBar.LabelX();
+            this.txtEmail = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnSua = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
             this.bindingNavigator1.SuspendLayout();
             this.panelEx1.SuspendLayout();
@@ -113,6 +117,7 @@
             this.btnThem,
             this.btnXoa,
             this.btnLuu,
+            this.btnSua,
             this.btnHuy});
             this.bindingNavigator1.Location = new System.Drawing.Point(0, 171);
             this.bindingNavigator1.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
@@ -209,7 +214,7 @@
             // 
             this.labelX4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX4.ForeColor = System.Drawing.Color.Navy;
-            this.labelX4.Location = new System.Drawing.Point(48, 127);
+            this.labelX4.Location = new System.Drawing.Point(551, 90);
             this.labelX4.Margin = new System.Windows.Forms.Padding(4);
             this.labelX4.Name = "labelX4";
             this.labelX4.Size = new System.Drawing.Size(143, 28);
@@ -248,7 +253,7 @@
             this.txtMatKhau.Margin = new System.Windows.Forms.Padding(4);
             this.txtMatKhau.Name = "txtMatKhau";
             this.txtMatKhau.PasswordChar = '*';
-            this.txtMatKhau.Size = new System.Drawing.Size(155, 22);
+            this.txtMatKhau.Size = new System.Drawing.Size(232, 22);
             this.txtMatKhau.TabIndex = 3;
             // 
             // txtTenDangnhap
@@ -277,6 +282,8 @@
             // panelEx1
             // 
             this.panelEx1.CanvasColor = System.Drawing.SystemColors.Control;
+            this.panelEx1.Controls.Add(this.labelX5);
+            this.panelEx1.Controls.Add(this.txtEmail);
             this.panelEx1.Controls.Add(this.cbLoaiNguoiDung);
             this.panelEx1.Controls.Add(this.labelX4);
             this.panelEx1.Controls.Add(this.labelX3);
@@ -311,9 +318,9 @@
             // cbLoaiNguoiDung
             // 
             this.cbLoaiNguoiDung.FormattingEnabled = true;
-            this.cbLoaiNguoiDung.Location = new System.Drawing.Point(198, 131);
+            this.cbLoaiNguoiDung.Location = new System.Drawing.Point(701, 94);
             this.cbLoaiNguoiDung.Name = "cbLoaiNguoiDung";
-            this.cbLoaiNguoiDung.Size = new System.Drawing.Size(121, 24);
+            this.cbLoaiNguoiDung.Size = new System.Drawing.Size(232, 24);
             this.cbLoaiNguoiDung.TabIndex = 7;
             // 
             // dtNguoiDung
@@ -323,7 +330,8 @@
             this.dtNguoiDung.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
-            this.Column3});
+            this.Column3,
+            this.Column4});
             this.dtNguoiDung.Location = new System.Drawing.Point(0, 249);
             this.dtNguoiDung.Name = "dtNguoiDung";
             this.dtNguoiDung.RowHeadersWidth = 51;
@@ -332,6 +340,29 @@
             this.dtNguoiDung.TabIndex = 6;
             this.dtNguoiDung.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtNguoiDung_CellClick);
             this.dtNguoiDung.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtNguoiDung_CellContentClick);
+            // 
+            // labelX5
+            // 
+            this.labelX5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX5.ForeColor = System.Drawing.Color.Navy;
+            this.labelX5.Location = new System.Drawing.Point(550, 50);
+            this.labelX5.Margin = new System.Windows.Forms.Padding(4);
+            this.labelX5.Name = "labelX5";
+            this.labelX5.Size = new System.Drawing.Size(124, 28);
+            this.labelX5.TabIndex = 9;
+            this.labelX5.Text = "Email";
+            // 
+            // txtEmail
+            // 
+            // 
+            // 
+            // 
+            this.txtEmail.Border.Class = "TextBoxBorder";
+            this.txtEmail.Location = new System.Drawing.Point(701, 50);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(232, 22);
+            this.txtEmail.TabIndex = 8;
             // 
             // Column1
             // 
@@ -356,6 +387,25 @@
             this.Column3.HeaderText = "Loại Người Dùng";
             this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column4.DataPropertyName = "Gmail";
+            this.Column4.HeaderText = "Gmail";
+            this.Column4.MinimumWidth = 6;
+            this.Column4.Name = "Column4";
+            // 
+            // btnSua
+            // 
+            this.btnSua.Image = ((System.Drawing.Image)(resources.GetObject("btnSua.Image")));
+            this.btnSua.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.btnSua.Name = "btnSua";
+            this.btnSua.RightToLeftAutoMirrorImage = true;
+            this.btnSua.Size = new System.Drawing.Size(38, 72);
+            this.btnSua.Text = "Sửa";
+            this.btnSua.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnSua.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // DanhSachNguoiDungUser
             // 
@@ -401,8 +451,12 @@
         private DevComponents.DotNetBar.PanelEx panelEx1;
         private System.Windows.Forms.ComboBox cbLoaiNguoiDung;
         private System.Windows.Forms.DataGridView dtNguoiDung;
+        private DevComponents.DotNetBar.LabelX labelX5;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtEmail;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.ToolStripButton btnSua;
     }
 }

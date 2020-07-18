@@ -20,7 +20,10 @@ namespace QUANLYKHACHSAN.UserInterface
 
         public int i = 0;
         DataClasses1DataContext dtt = new DataClasses1DataContext();
-
+        public void seaching_LoaiPg(string s)
+        {
+            dataLoaiPhong.DataSource = dtt.seaching_loaiPhong(s);
+        }
         private void saveToolStripButton_Click(object sender, EventArgs e)
         {
             if (i == 1)
@@ -33,14 +36,24 @@ namespace QUANLYKHACHSAN.UserInterface
                 }
                 else
                 {
-                    DialogResult xoa = MessageBox.Show("Bạn có muốn Thêm không?", "", MessageBoxButtons.YesNo);
-                    if (xoa == DialogResult.Yes)
+                    var data1 = dtt.LoaiPhongs.Where(s => s.MaLoaiPhong == txtMaLoaiPhong.Text.Trim()).FirstOrDefault();
+                    if (data1 == null)
                     {
-                        var data = dtt.ThemLoaiPhongaaaaaa(txtMaLoaiPhong.Text, txtTenLoaiPhong.Text, Convert.ToInt32(txtDonGia.Text), Convert.ToInt32(txtSoNguoiChuan.Text), Convert.ToInt32(txtSoNguoiToiDa.Text));
+                        DialogResult xoa = MessageBox.Show("Bạn có muốn Thêm không?", "", MessageBoxButtons.YesNo);
+                        if (xoa == DialogResult.Yes)
+                        {
+                            var data = dtt.ThemLoaiPhongaaaaaa(txtMaLoaiPhong.Text, txtTenLoaiPhong.Text, Convert.ToInt32(txtDonGia.Text), Convert.ToInt32(txtSoNguoiChuan.Text), Convert.ToInt32(txtSoNguoiToiDa.Text));
 
-                        MessageBox.Show("Thêm Thành Công ?", "Thông Báo", MessageBoxButtons.OK);
+                            MessageBox.Show("Thêm Thành Công ?", "Thông Báo", MessageBoxButtons.OK);
+
+                        }
 
                     }
+                    else
+                    {
+                        MessageBox.Show("Đã Có Loại Phòng Này !");
+                    }
+                      
 
                 }    
                
@@ -215,6 +228,11 @@ namespace QUANLYKHACHSAN.UserInterface
 
             }    
            
+        }
+
+        private void txtTimKiem_TextChanged(object sender, EventArgs e)
+        {
+            seaching_LoaiPg(txtTimKiem.Text.Trim());
         }
     }
 }

@@ -28,13 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.MaKhachHang = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.MaNhanPhong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.panel = new DevComponents.DotNetBar.PanelEx();
             this.button2 = new System.Windows.Forms.Button();
+            this.txttimKiemHoadoa = new System.Windows.Forms.TextBox();
             this.MaPhieuThue = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.dataGridViewX1 = new DevComponents.DotNetBar.Controls.DataGridViewX();
             this.dataGridViewX2 = new DevComponents.DotNetBar.Controls.DataGridViewX();
@@ -44,7 +45,7 @@
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txttimKiemHoadoa = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewX1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewX2)).BeginInit();
@@ -72,7 +73,7 @@
             // 
             this.labelX1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX1.ForeColor = System.Drawing.Color.Blue;
-            this.labelX1.Location = new System.Drawing.Point(379, 28);
+            this.labelX1.Location = new System.Drawing.Point(397, 58);
             this.labelX1.Margin = new System.Windows.Forms.Padding(4);
             this.labelX1.Name = "labelX1";
             this.labelX1.Size = new System.Drawing.Size(529, 48);
@@ -84,6 +85,7 @@
             // panel
             // 
             this.panel.CanvasColor = System.Drawing.SystemColors.Control;
+            this.panel.Controls.Add(this.button1);
             this.panel.Controls.Add(this.button2);
             this.panel.Controls.Add(this.txttimKiemHoadoa);
             this.panel.Controls.Add(this.labelX1);
@@ -121,6 +123,19 @@
             this.button2.TabIndex = 52;
             this.button2.UseVisualStyleBackColor = false;
             // 
+            // txttimKiemHoadoa
+            // 
+            this.txttimKiemHoadoa.BackColor = System.Drawing.SystemColors.Control;
+            this.txttimKiemHoadoa.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txttimKiemHoadoa.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txttimKiemHoadoa.ForeColor = System.Drawing.Color.DimGray;
+            this.txttimKiemHoadoa.Location = new System.Drawing.Point(1139, 227);
+            this.txttimKiemHoadoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txttimKiemHoadoa.Name = "txttimKiemHoadoa";
+            this.txttimKiemHoadoa.Size = new System.Drawing.Size(168, 30);
+            this.txttimKiemHoadoa.TabIndex = 51;
+            this.txttimKiemHoadoa.TextChanged += new System.EventHandler(this.txttimKiemHoadoa_TextChanged);
+            // 
             // MaPhieuThue
             // 
             this.MaPhieuThue.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
@@ -139,14 +154,14 @@
             this.MaNhanPhong,
             this.MaPhieuThue,
             this.MaKhachHang});
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewX1.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewX1.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridViewX1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewX1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.dataGridViewX1.Location = new System.Drawing.Point(0, 0);
@@ -167,14 +182,14 @@
             this.Column5,
             this.Column3,
             this.Column4});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewX2.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewX2.DefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridViewX2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewX2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(215)))), ((int)(((byte)(229)))));
             this.dataGridViewX2.Location = new System.Drawing.Point(0, 264);
@@ -232,18 +247,16 @@
             this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
             // 
-            // txttimKiemHoadoa
+            // button1
             // 
-            this.txttimKiemHoadoa.BackColor = System.Drawing.SystemColors.Control;
-            this.txttimKiemHoadoa.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txttimKiemHoadoa.Font = new System.Drawing.Font("Palatino Linotype", 13.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttimKiemHoadoa.ForeColor = System.Drawing.Color.DimGray;
-            this.txttimKiemHoadoa.Location = new System.Drawing.Point(1139, 227);
-            this.txttimKiemHoadoa.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.txttimKiemHoadoa.Name = "txttimKiemHoadoa";
-            this.txttimKiemHoadoa.Size = new System.Drawing.Size(168, 30);
-            this.txttimKiemHoadoa.TabIndex = 51;
-            this.txttimKiemHoadoa.Text = "Mã Hóa Đơn";
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(512, 208);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(267, 49);
+            this.button1.TabIndex = 53;
+            this.button1.Text = "XUẤT EXCEL";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // DanhSachKhachHangNhanPhongUser
             // 
@@ -280,5 +293,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox txttimKiemHoadoa;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -260,7 +260,7 @@
             // 
             // 
             this.txtMaChiTiet.Border.Class = "TextBoxBorder";
-            this.txtMaChiTiet.Location = new System.Drawing.Point(255, 33);
+            this.txtMaChiTiet.Location = new System.Drawing.Point(258, 8);
             this.txtMaChiTiet.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaChiTiet.Name = "txtMaChiTiet";
             this.txtMaChiTiet.Size = new System.Drawing.Size(265, 26);
@@ -268,7 +268,7 @@
             // 
             // labelX7
             // 
-            this.labelX7.Location = new System.Drawing.Point(22, 31);
+            this.labelX7.Location = new System.Drawing.Point(25, 10);
             this.labelX7.Margin = new System.Windows.Forms.Padding(4);
             this.labelX7.Name = "labelX7";
             this.labelX7.Size = new System.Drawing.Size(198, 28);
@@ -279,7 +279,7 @@
             // 
             this.dateTimeNgayNhan.CustomFormat = "hh:mm:ss tt dd/MM/yyyy";
             this.dateTimeNgayNhan.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeNgayNhan.Location = new System.Drawing.Point(255, 137);
+            this.dateTimeNgayNhan.Location = new System.Drawing.Point(258, 103);
             this.dateTimeNgayNhan.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimeNgayNhan.Name = "dateTimeNgayNhan";
             this.dateTimeNgayNhan.Size = new System.Drawing.Size(265, 26);
@@ -289,7 +289,7 @@
             // 
             this.dateNgayDangKy.CustomFormat = "hh:mm:ss tt dd/MM/yyyy";
             this.dateNgayDangKy.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateNgayDangKy.Location = new System.Drawing.Point(255, 103);
+            this.dateNgayDangKy.Location = new System.Drawing.Point(258, 70);
             this.dateNgayDangKy.Margin = new System.Windows.Forms.Padding(4);
             this.dateNgayDangKy.Name = "dateNgayDangKy";
             this.dateNgayDangKy.Size = new System.Drawing.Size(265, 26);
@@ -297,7 +297,7 @@
             // 
             // labelX5
             // 
-            this.labelX5.Location = new System.Drawing.Point(22, 135);
+            this.labelX5.Location = new System.Drawing.Point(25, 105);
             this.labelX5.Margin = new System.Windows.Forms.Padding(4);
             this.labelX5.Name = "labelX5";
             this.labelX5.Size = new System.Drawing.Size(198, 28);
@@ -307,19 +307,19 @@
             // labelX4
             // 
             this.labelX4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelX4.Location = new System.Drawing.Point(22, 99);
+            this.labelX4.Location = new System.Drawing.Point(25, 74);
             this.labelX4.Margin = new System.Windows.Forms.Padding(4);
             this.labelX4.Name = "labelX4";
-            this.labelX4.Size = new System.Drawing.Size(115, 28);
+            this.labelX4.Size = new System.Drawing.Size(198, 28);
             this.labelX4.TabIndex = 8;
             this.labelX4.Text = "Ngày đăng ký";
             // 
             // labelX3
             // 
-            this.labelX3.Location = new System.Drawing.Point(22, 67);
+            this.labelX3.Location = new System.Drawing.Point(25, 42);
             this.labelX3.Margin = new System.Windows.Forms.Padding(4);
             this.labelX3.Name = "labelX3";
-            this.labelX3.Size = new System.Drawing.Size(100, 28);
+            this.labelX3.Size = new System.Drawing.Size(198, 28);
             this.labelX3.TabIndex = 2;
             this.labelX3.Text = "Mã phòng";
             // 
@@ -329,7 +329,7 @@
             this.cmbMaPHong.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbMaPHong.FormattingEnabled = true;
             this.cmbMaPHong.ItemHeight = 20;
-            this.cmbMaPHong.Location = new System.Drawing.Point(255, 69);
+            this.cmbMaPHong.Location = new System.Drawing.Point(258, 38);
             this.cmbMaPHong.Margin = new System.Windows.Forms.Padding(4);
             this.cmbMaPHong.Name = "cmbMaPHong";
             this.cmbMaPHong.Size = new System.Drawing.Size(265, 26);
@@ -396,13 +396,12 @@
             this.txtSoPhieuDang.Name = "txtSoPhieuDang";
             this.txtSoPhieuDang.Size = new System.Drawing.Size(182, 30);
             this.txtSoPhieuDang.TabIndex = 48;
-            this.txtSoPhieuDang.Text = "Mã Phiếu Nhận";
             this.txtSoPhieuDang.Click += new System.EventHandler(this.txtSoPhieuDang_Click);
             this.txtSoPhieuDang.TextChanged += new System.EventHandler(this.txtSoPhieuDang_TextChanged_1);
             // 
             // txtSoNguoiO
             // 
-            this.txtSoNguoiO.Location = new System.Drawing.Point(586, 7);
+            this.txtSoNguoiO.Location = new System.Drawing.Point(561, 7);
             this.txtSoNguoiO.Maximum = new decimal(new int[] {
             10,
             0,
@@ -546,7 +545,7 @@
             this.labelX1.Location = new System.Drawing.Point(13, 4);
             this.labelX1.Margin = new System.Windows.Forms.Padding(4);
             this.labelX1.Name = "labelX1";
-            this.labelX1.Size = new System.Drawing.Size(124, 28);
+            this.labelX1.Size = new System.Drawing.Size(135, 28);
             this.labelX1.TabIndex = 0;
             this.labelX1.Text = "Mã phiếu thuê";
             // 

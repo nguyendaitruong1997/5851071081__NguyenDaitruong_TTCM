@@ -62,6 +62,9 @@
             this.MaPhong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.txtTimKiem = new DevComponents.DotNetBar.Controls.TextBoxX();
+            this.labelX5 = new DevComponents.DotNetBar.LabelX();
             this.panelEx1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewphong)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
@@ -71,6 +74,8 @@
             // panelEx1
             // 
             this.panelEx1.CanvasColor = System.Drawing.Color.CornflowerBlue;
+            this.panelEx1.Controls.Add(this.txtTimKiem);
+            this.panelEx1.Controls.Add(this.labelX5);
             this.panelEx1.Controls.Add(this.btnTinhTrangPhong);
             this.panelEx1.Controls.Add(this.btnMaLPhong);
             this.panelEx1.Controls.Add(this.cmbMaTTrPhong);
@@ -109,7 +114,7 @@
             this.btnTinhTrangPhong.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnTinhTrangPhong.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnTinhTrangPhong.Image = ((System.Drawing.Image)(resources.GetObject("btnTinhTrangPhong.Image")));
-            this.btnTinhTrangPhong.Location = new System.Drawing.Point(541, 119);
+            this.btnTinhTrangPhong.Location = new System.Drawing.Point(793, 163);
             this.btnTinhTrangPhong.Margin = new System.Windows.Forms.Padding(4);
             this.btnTinhTrangPhong.Name = "btnTinhTrangPhong";
             this.btnTinhTrangPhong.Size = new System.Drawing.Size(41, 28);
@@ -121,7 +126,7 @@
             this.btnMaLPhong.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnMaLPhong.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnMaLPhong.Image = ((System.Drawing.Image)(resources.GetObject("btnMaLPhong.Image")));
-            this.btnMaLPhong.Location = new System.Drawing.Point(541, 82);
+            this.btnMaLPhong.Location = new System.Drawing.Point(793, 126);
             this.btnMaLPhong.Margin = new System.Windows.Forms.Padding(4);
             this.btnMaLPhong.Name = "btnMaLPhong";
             this.btnMaLPhong.Size = new System.Drawing.Size(41, 28);
@@ -134,7 +139,7 @@
             this.cmbMaTTrPhong.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbMaTTrPhong.FormattingEnabled = true;
             this.cmbMaTTrPhong.ItemHeight = 14;
-            this.cmbMaTTrPhong.Location = new System.Drawing.Point(356, 119);
+            this.cmbMaTTrPhong.Location = new System.Drawing.Point(608, 163);
             this.cmbMaTTrPhong.Margin = new System.Windows.Forms.Padding(4);
             this.cmbMaTTrPhong.Name = "cmbMaTTrPhong";
             this.cmbMaTTrPhong.Size = new System.Drawing.Size(160, 20);
@@ -147,7 +152,7 @@
             this.cmbMaLPhong.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.cmbMaLPhong.FormattingEnabled = true;
             this.cmbMaLPhong.ItemHeight = 14;
-            this.cmbMaLPhong.Location = new System.Drawing.Point(356, 82);
+            this.cmbMaLPhong.Location = new System.Drawing.Point(608, 126);
             this.cmbMaLPhong.Margin = new System.Windows.Forms.Padding(4);
             this.cmbMaLPhong.Name = "cmbMaLPhong";
             this.cmbMaLPhong.Size = new System.Drawing.Size(160, 20);
@@ -159,17 +164,17 @@
             // 
             // 
             this.txtMaPhong.Border.Class = "TextBoxBorder";
-            this.txtMaPhong.Location = new System.Drawing.Point(356, 46);
+            this.txtMaPhong.Location = new System.Drawing.Point(608, 90);
             this.txtMaPhong.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaPhong.Name = "txtMaPhong";
-            this.txtMaPhong.Size = new System.Drawing.Size(133, 22);
+            this.txtMaPhong.Size = new System.Drawing.Size(160, 22);
             this.txtMaPhong.TabIndex = 5;
             // 
             // labelX4
             // 
             this.labelX4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX4.ForeColor = System.Drawing.Color.Navy;
-            this.labelX4.Location = new System.Drawing.Point(165, 119);
+            this.labelX4.Location = new System.Drawing.Point(417, 163);
             this.labelX4.Margin = new System.Windows.Forms.Padding(4);
             this.labelX4.Name = "labelX4";
             this.labelX4.Size = new System.Drawing.Size(167, 28);
@@ -180,7 +185,7 @@
             // 
             this.labelX3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX3.ForeColor = System.Drawing.Color.Navy;
-            this.labelX3.Location = new System.Drawing.Point(165, 82);
+            this.labelX3.Location = new System.Drawing.Point(417, 126);
             this.labelX3.Margin = new System.Windows.Forms.Padding(4);
             this.labelX3.Name = "labelX3";
             this.labelX3.Size = new System.Drawing.Size(119, 28);
@@ -191,7 +196,7 @@
             // 
             this.labelX2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelX2.ForeColor = System.Drawing.Color.Navy;
-            this.labelX2.Location = new System.Drawing.Point(165, 46);
+            this.labelX2.Location = new System.Drawing.Point(417, 90);
             this.labelX2.Margin = new System.Windows.Forms.Padding(4);
             this.labelX2.Name = "labelX2";
             this.labelX2.Size = new System.Drawing.Size(119, 28);
@@ -217,7 +222,8 @@
             this.dataGridViewphong.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.MaPhong,
             this.Column1,
-            this.Column2});
+            this.Column2,
+            this.Column3});
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -433,6 +439,40 @@
             this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
             // 
+            // Column3
+            // 
+            this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Column3.DataPropertyName = "TenTinhTrang";
+            this.Column3.HeaderText = "Tên Tình Trạng";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            // 
+            // txtTimKiem
+            // 
+            // 
+            // 
+            // 
+            this.txtTimKiem.Border.Class = "TextBoxBorder";
+            this.txtTimKiem.Location = new System.Drawing.Point(1187, 167);
+            this.txtTimKiem.Margin = new System.Windows.Forms.Padding(4);
+            this.txtTimKiem.Multiline = true;
+            this.txtTimKiem.Name = "txtTimKiem";
+            this.txtTimKiem.Size = new System.Drawing.Size(153, 36);
+            this.txtTimKiem.TabIndex = 10;
+            this.txtTimKiem.TextChanged += new System.EventHandler(this.textBoxX1_TextChanged);
+            // 
+            // labelX5
+            // 
+            this.labelX5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelX5.ForeColor = System.Drawing.Color.Navy;
+            this.labelX5.Location = new System.Drawing.Point(1060, 163);
+            this.labelX5.Margin = new System.Windows.Forms.Padding(4);
+            this.labelX5.Name = "labelX5";
+            this.labelX5.Size = new System.Drawing.Size(119, 42);
+            this.labelX5.TabIndex = 9;
+            this.labelX5.Text = "Tìm Kiếm";
+            this.labelX5.TextAlignment = System.Drawing.StringAlignment.Center;
+            // 
             // UserPhong
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -486,5 +526,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn MaPhong;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private DevComponents.DotNetBar.Controls.TextBoxX txtTimKiem;
+        private DevComponents.DotNetBar.LabelX labelX5;
     }
 }

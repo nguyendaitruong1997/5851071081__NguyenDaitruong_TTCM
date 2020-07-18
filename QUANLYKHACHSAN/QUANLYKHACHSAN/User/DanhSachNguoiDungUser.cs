@@ -18,6 +18,7 @@ namespace QUANLYKHACHSAN.User
             InitializeComponent();
         }
         DataClasses1DataContext dt = new DataClasses1DataContext();
+        public int i = 0;
         public string MaHoa(string txt)
         {
             MD5 mh = MD5.Create();
@@ -39,6 +40,11 @@ namespace QUANLYKHACHSAN.User
             clickthem();
             txtTenDangnhap.Text = "";
             txtMatKhau.Text = "";
+            txtEmail.Enabled = true;
+           // txtEmail.Text = "";
+            i = 1;
+            txtEmail.Text = "";
+            btnSua.Enabled = false;
         }
         public void clickhuy()
         {
@@ -57,25 +63,75 @@ namespace QUANLYKHACHSAN.User
           
 
         }
+        public bool check()
+        {
+            var data = dt.TaiKhoans.Where(s => s.TenDangNhap == txtTenDangnhap.Text.Trim()).FirstOrDefault();
+            if(data==null)
+            {
+                return true;
+            }    
+            return false;
+        }
         private void toolStripLuu_Click(object sender, EventArgs e)
             
         {
-            if(txtTenDangnhap.Text==""|| MaHoa(txtMatKhau.Text)==""|| (cbLoaiNguoiDung.Text)=="")
+            if(i==1)
             {
-                MessageBox.Show("Bạn hãy nhập đầy đủ thông tin!", "Thông báo!", MessageBoxButtons.YesNo);
+                if (txtTenDangnhap.Text == "" || MaHoa(txtMatKhau.Text) == "" || (cbLoaiNguoiDung.Text) == "" || txtEmail.Text == "")
+                {
+                    MessageBox.Show("Bạn hãy nhập đầy đủ thông tin!", "Thông báo!", MessageBoxButtons.YesNo);
+
+                }
+                else
+                {
+                    if (check() == true)
+                    {
+                        DialogResult xoa = MessageBox.Show("bạn có muốn thêm không?", "Thông báo!", MessageBoxButtons.YesNo);
+                        if (xoa == DialogResult.Yes)
+                        {
+                            var data = dt.insertt(txtTenDangnhap.Text, MaHoa(txtMatKhau.Text), Convert.ToInt32(cbLoaiNguoiDung.Text),txtEmail.Text);
+                            MessageBox.Show("Thêm người dùng thành công!", "Thông báo!", MessageBoxButtons.OK);
+
+                        }
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Người dùng đã tôn tại!", "Thông Báo!", MessageBoxButtons.OK);
+                    }
+
+
+                }
+
 
             } 
-            else
+            else if(i==2)
             {
-                DialogResult xoa = MessageBox.Show("bạn có muốn thêm không?", "Thông báo!", MessageBoxButtons.YesNo);
-                if (xoa == DialogResult.Yes)
+                if (txtTenDangnhap.Text == "" || MaHoa(txtMatKhau.Text) == "" || (cbLoaiNguoiDung.Text) == "" || txtEmail.Text == "")
                 {
-                    var data = dt.insertt(txtTenDangnhap.Text, MaHoa(txtMatKhau.Text), Convert.ToInt32(cbLoaiNguoiDung.Text));
-                    MessageBox.Show("Thêm người dùng thành công!", "Thông báo!", MessageBoxButtons.YesNo);
+                    MessageBox.Show("Bạn hãy nhập đầy đủ thông tin!", "Thông báo!", MessageBoxButtons.YesNo);
+
+                }
+                else
+                {
+                   
+                    {
+                        DialogResult xoa = MessageBox.Show("bạn có muốn sửa không?", "Thông báo!", MessageBoxButtons.YesNo);
+                        if (xoa == DialogResult.Yes)
+                        {
+                            var data = dt.update_Nguoidung(txtTenDangnhap.Text, MaHoa(txtMatKhau.Text), Convert.ToInt32(cbLoaiNguoiDung.Text), txtEmail.Text);
+                            MessageBox.Show("Sửa người dùng thành công!", "Thông báo!", MessageBoxButtons.OK);
+
+                        }
+
+                    }
+                   
+
 
                 }
 
             }    
+            
 
            
             DanhSachNguoiDungUser_Load( sender,  e);
@@ -111,12 +167,15 @@ namespace QUANLYKHACHSAN.User
             txtTenDangnhap.Enabled = false;
             txtMatKhau.Enabled = false;
             cbLoaiNguoiDung.Enabled = false;
+            txtEmail.Enabled = false;
 
             txtTenDangnhap.Text = dtNguoiDung.Rows[0].Cells[0].Value.ToString();
             txtMatKhau.Text = dtNguoiDung.Rows[0].Cells[1].Value.ToString();
             cbLoaiNguoiDung.Text = dtNguoiDung.Rows[0].Cells[2].Value.ToString();
+            txtEmail.Text = dtNguoiDung.Rows[0].Cells[3].Value.ToString();
             btnThem.Enabled = true;
             btnXoa.Enabled = true;
+            btnSua.Enabled = true;
 
 
         }
@@ -134,6 +193,8 @@ namespace QUANLYKHACHSAN.User
             txtTenDangnhap.Text = dtNguoiDung.Rows[i].Cells[0].Value.ToString();
             txtMatKhau.Text = dtNguoiDung.Rows[i].Cells[1].Value.ToString();
             cbLoaiNguoiDung.Text = dtNguoiDung.Rows[i].Cells[2].Value.ToString();
+            txtEmail.Text = dtNguoiDung.Rows[i].Cells[3].Value.ToString();
+            //btnSua.Enabled = true;
         }
 
         private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
@@ -150,6 +211,20 @@ namespace QUANLYKHACHSAN.User
         {
             DanhSachNguoiDungUser_Load(sender,  e);
 
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            i = 2;
+            txtTenDangnhap.Enabled = false;
+            txtEmail.Enabled = true;
+            txtMatKhau.Enabled = true;
+            cbLoaiNguoiDung.Enabled = true;
+            btnLuu.Enabled = true;
+            btnThem.Enabled = false;
+            btnXoa.Enabled = false;
+            btnSua.Enabled = false;
+            
         }
     }
 }

@@ -24,6 +24,10 @@ namespace QUANLYKHACHSAN
 
             clickthem();
         }
+        public void seaching_kh(string s)
+        {
+            datagKhachhang.DataSource = dt.seaching_kh(s);
+        }
         public void clickthem()
         {
             btnLuu.Enabled = true;
@@ -97,20 +101,58 @@ namespace QUANLYKHACHSAN
 
 
         }
+        public bool check()
+        {
+            var data = dt.KhachHangs.Where(s => s.MaKhachHang == txtMaKhachHang.Text.Trim()).FirstOrDefault();
+            if(data!=null)
+            {
+                return false;
+            }
+            return true;
+        }
+        public bool checkNhapLieu()
+        {
+            if(txtMaKhachHang.Text.Trim()=="" || cmbQuocTich.SelectedValue.ToString()=="" ||txtTenKhachHang.Text.Trim()==""
+                ||txtCMND.Text.Trim()=="" ||cbGioiTinh.Text.Trim()==""||txtDiaChi.Text.Trim()==""|| txtSdt.Text.Trim()=="")
+            {
+                return true;
+
+            }    
+            return true;
+        }
 
         private void save_Click(object sender, EventArgs e)
         {
 
             if (i == 1)
             {
-                DialogResult xoa = MessageBox.Show("bạn có muốn Thêm không?", "", MessageBoxButtons.YesNo);
-                if (xoa == DialogResult.Yes)
+                if(check()==true)
                 {
-                    dt.themkhachhangs(txtMaKhachHang.Text, cmbQuocTich.SelectedValue.ToString(), txtTenKhachHang.Text, txtCMND.Text, cbGioiTinh.Text, txtDiaChi.Text, txtSdt.Text);
+                    if(checkNhapLieu()==true)
+                    {
+                        DialogResult xoa = MessageBox.Show("bạn có muốn Thêm không?", "", MessageBoxButtons.YesNo);
+                        if (xoa == DialogResult.Yes)
+                        {
+                            dt.themkhachhangs(txtMaKhachHang.Text, cmbQuocTich.SelectedValue.ToString(), txtTenKhachHang.Text, txtCMND.Text, cbGioiTinh.Text, txtDiaChi.Text, txtSdt.Text);
 
-                    MessageBox.Show("Thêm Thành Công ?", "Thông Báo", MessageBoxButtons.OK);
+                            MessageBox.Show("Thêm Thành Công ?", "Thông Báo", MessageBoxButtons.OK);
+
+                        }
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Bạn Hãy Nhập Đầy Đủ Thông Tin!");
+                    }
+
+                  
 
                 }
+                else
+                {
+                    MessageBox.Show("Mã Khách Hàng Bị Trùng", "Thông Báo !", MessageBoxButtons.OK);
+                }
+               
 
             }
             else if (i == 2)
@@ -180,7 +222,11 @@ namespace QUANLYKHACHSAN
                 datagKhachhang.DataSource = dt.KhachHangs.Where(s => s.MaKhachHang == txtMaKhachHang.Text).ToList();
             }
 
-        }    
-            
+        }
+
+        private void txtTimKiem_TextChanged(object sender, EventArgs e)
+        {
+            seaching_kh(txtTimKiem.Text.Trim());
+        }
     }
 }

@@ -73,6 +73,11 @@ namespace QUANLYKHACHSAN.User
 
 
         }
+        public void seaching_kh(string s)
+        {
+            datagKhachhang.DataSource = dt.seaching_kh(s);
+
+        }
 
         private void KhachHangUser_Load(object sender, EventArgs e)
         {
@@ -216,15 +221,16 @@ namespace QUANLYKHACHSAN.User
                     var data = dt.xoakhachhang(txtMaKhachHang.Text);
 
                 }
-                datagKhachhang.DataSource = new DataClasses1DataContext().KhachHangs.ToList();
+              
 
             }
             else
             {
                 MessageBox.Show("Không xóa được !");
             }
+            datagKhachhang.DataSource = new DataClasses1DataContext().KhachHangs.ToList();
 
-          
+
         }
 
         private void btnHuy_Click(object sender, EventArgs e)
@@ -256,6 +262,11 @@ namespace QUANLYKHACHSAN.User
         private void txtTimKiem_Click(object sender, EventArgs e)
         {
             txtTimKiem.Text = "";
+        }
+
+        private void txtTimKiem_TextChanged(object sender, EventArgs e)
+        {
+            seaching_kh(txtTimKiem.Text.Trim());
         }
     }
 }

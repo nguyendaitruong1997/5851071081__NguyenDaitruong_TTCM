@@ -25,6 +25,10 @@ namespace QUANLYKHACHSAN
 
 
         }
+        public void seaching_QuocTich(string s)
+        {
+            datagQuocTich.DataSource = dt.Seaching_QuocTich(s);
+        }
         public void clickthem()
         {
             btnLuu.Enabled = true;
@@ -44,6 +48,9 @@ namespace QUANLYKHACHSAN
             txtQuocTich.Text = datagQuocTich.Rows[0].Cells[0].Value.ToString();
             txtGhiChu.Text = datagQuocTich.Rows[0].Cells[1].Value.ToString();
             txtQuocTich.Enabled = false;
+           // string s = "05/07/2020";
+          //  DateTime dateTime = Convert.ToDateTime(s.ToString());
+            //MessageBox.Show(dateTime.Day.ToString());
         }
 
         private void btnLuu_Click(object sender, EventArgs e)
@@ -83,6 +90,11 @@ namespace QUANLYKHACHSAN
         {
             FormQuocTich_Load(sender, e);
 
+        }
+
+        private void txtTimKiem_TextChanged(object sender, EventArgs e)
+        {
+            seaching_QuocTich(txtTimKiem.Text.Trim());
         }
     }
 }

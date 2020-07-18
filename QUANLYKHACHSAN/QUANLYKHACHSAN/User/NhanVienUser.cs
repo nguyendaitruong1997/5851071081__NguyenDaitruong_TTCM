@@ -23,23 +23,53 @@ namespace QUANLYKHACHSAN.User
         {
             if (i == 1)
             {
-                DialogResult xoa = MessageBox.Show("bạn có muốn Thêm không?", "", MessageBoxButtons.YesNo);
-                if (xoa == DialogResult.Yes)
+                if(txtMaNhanVien.Text==""|| txtTenNhanVien.Text==""|| cbbGioiTinh.Text==""||
+                        txtQueQuan.Text=="" ||txtNgaySinh.Text=="")
                 {
-                    var data = dt.themnhanvien(txtMaNhanVien.Text, txtTenNhanVien.Text, cbbGioiTinh.Text, txtQueQuan.Text, txtNgaySinh.Text);
-                    MessageBox.Show("Thêm Thành Công ?", "Thông Báo", MessageBoxButtons.OK);
+                    MessageBox.Show("Bạn Hãy Nhập Đẩy Đủ Thông Tin!", "Thông Báo", MessageBoxButtons.OK);
+                }
+                else
+                {
+                    var nv = dt.NhanViens.Where(s => s.MaNhanVien == txtMaNhanVien.Text.Trim()).FirstOrDefault();
+                    if (nv == null)
+                    {
+                        DialogResult xoa = MessageBox.Show("bạn có muốn Thêm không?", "", MessageBoxButtons.YesNo);
+                        if (xoa == DialogResult.Yes)
+                        {
+                            var data = dt.themnhanvien(txtMaNhanVien.Text, txtTenNhanVien.Text, cbbGioiTinh.Text, txtQueQuan.Text, txtNgaySinh.Text);
+                            MessageBox.Show("Thêm Thành Công ?", "Thông Báo", MessageBoxButtons.OK);
 
-                }    
+                        }
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Nhân Viên Đã Tồn Tại !", "Thông Báo", MessageBoxButtons.OK);
+                    }
+
+                }
+              
+              
                               
             }else if(i==2)
             {
-                DialogResult xoa = MessageBox.Show("bạn có muốn sửa không?", "", MessageBoxButtons.YesNo);
-                if (xoa == DialogResult.Yes)
+                if (txtMaNhanVien.Text == "" || txtTenNhanVien.Text == "" || cbbGioiTinh.Text == "" ||
+                        txtQueQuan.Text == "" || txtNgaySinh.Text == "")
                 {
-                    var data = dt.suanhanvien(txtMaNhanVien.Text, txtTenNhanVien.Text, cbbGioiTinh.Text, txtQueQuan.Text, txtNgaySinh.Text);
-                    MessageBox.Show("Sửa Thành Công ?", "Thông Báo", MessageBoxButtons.OK);
+                    MessageBox.Show("Bạn Hãy Nhập Đẩy Đủ Thông Tin!", "Thông Báo", MessageBoxButtons.OK);
+                }
+                else
+                {
+                    DialogResult xoa = MessageBox.Show("bạn có muốn sửa không?", "", MessageBoxButtons.YesNo);
+                    if (xoa == DialogResult.Yes)
+                    {
+                        var data = dt.suanhanvien(txtMaNhanVien.Text, txtTenNhanVien.Text, cbbGioiTinh.Text, txtQueQuan.Text, txtNgaySinh.Text);
+                        MessageBox.Show("Sửa Thành Công ?", "Thông Báo", MessageBoxButtons.OK);
+
+                    }
 
                 }
+              
               
                 
 
@@ -49,6 +79,10 @@ namespace QUANLYKHACHSAN.User
 
 
 
+        }
+        public void timkim(string s)
+        {
+            dtgNhanVien.DataSource = dt.seaching_nv(s);
         }
         public void notenable()
         {
@@ -94,14 +128,32 @@ namespace QUANLYKHACHSAN.User
         private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
         {
 
-           
-          
-            DialogResult xoa = MessageBox.Show("bạn có muốn xóa không?", "", MessageBoxButtons.YesNo);
-            if (xoa == DialogResult.Yes)
+           if(txtMaNhanVien.Text!=null)
             {
-                var data = dt.xoanhanvienn(txtMaNhanVien.Text);
+                PhieuThuePhong phieuThuePhong = dt.PhieuThuePhongs.Where(s => s.MaNhanVien == txtMaNhanVien.Text).FirstOrDefault();
+                if(phieuThuePhong==null)
+                {
+                    DialogResult xoa = MessageBox.Show("bạn có muốn xóa không?", "", MessageBoxButtons.YesNo);
+                    if (xoa == DialogResult.Yes)
+                    {
+                        var data = dt.xoanhanvienn(txtMaNhanVien.Text);
 
-            }
+                    }
+
+                }
+                else
+                {
+                    MessageBox.Show("Không Thể Xóa !");
+                }
+              
+
+            } 
+           else
+            {
+                MessageBox.Show("Bạn Chưa Chọn Nhân Viên Xóa");
+            }    
+          
+           
             dtgNhanVien.DataSource = new DataClasses1DataContext().NhanViens.ToList();
         }
 
@@ -197,7 +249,34 @@ namespace QUANLYKHACHSAN.User
 
         private void txtTimKiem_TextChanged(object sender, EventArgs e)
         {
+            timkim(txtTimKiem.Text.Trim());
+        }
 
+        private void printToolStripButton_Click(object sender, EventArgs e)
+        {
+            Microsoft.Office.Interop.Excel._Application app = new Microsoft.Office.Interop.Excel.Application();
+            Microsoft.Office.Interop.Excel._Workbook workbook = app.Workbooks.Add(Type.Missing);
+            Microsoft.Office.Interop.Excel._Worksheet worksheet = null;
+            worksheet = workbook.Sheets["Sheet1"];
+            worksheet = workbook.ActiveSheet;
+            app.Visible = true;
+            // Dua du lieu vao excel
+            worksheet.Cells[1, 7] = "Báo Cáo Doanh Thu Theo Loại Phòng";
+            worksheet.Cells[3, 4] = "STT";
+            worksheet.Cells[3, 5] = "Mã Nhân Viên";
+            worksheet.Cells[3, 6] = "Tên Nhân Viên";
+            worksheet.Cells[3, 7] = "Giới Tính";
+            worksheet.Cells[3, 8] = "Quê Quán ";
+            worksheet.Cells[3, 9] = "Ngày Sinh";
+
+            for (int i = 0; i < dtgNhanVien.RowCount ; i++)
+            {
+                for (int j = 0; j < 5; j++)
+                {
+                    worksheet.Cells[i + 4, 4] = i + 1;
+                    worksheet.Cells[i + 4, j + 5] = dtgNhanVien.Rows[i].Cells[j].Value;
+                }
+            }
         }
     }
 }

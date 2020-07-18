@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using QUANLYKHACHSAN.Database;
 using System.Globalization;
+using QUANLYKHACHSAN.UserInterface;
 
 namespace QUANLYKHACHSAN.User
 {
@@ -26,14 +27,20 @@ namespace QUANLYKHACHSAN.User
             
 
         }
+        public void TimKiem(string valuaToFind)
+        {
+            dataGridViewX1.DataSource = dt.seaching(valuaToFind);
+           
+
+        }
 
         private void ChiTietHoaDon_User_Load(object sender, EventArgs e)
         {
 
-          
-           // txtSoPhieuNhan.Enabled = false;
 
-            dataGridViewX1.DataSource = dt.selectcthd();
+            // txtSoPhieuNhan.Enabled = false;
+
+            dataGridViewX1.DataSource = dt.selectHd1();
             btnLuu.Enabled = false;
             btnSua.Enabled = true;
             btnThem.Enabled = true;
@@ -212,19 +219,20 @@ namespace QUANLYKHACHSAN.User
                     }
                     else
                     {
-                        dt.themhd(Convert.ToInt32(txtMaHoaDon.Text), cmbNhanVien.SelectedValue.ToString(), cmbMaKH.SelectedValue.ToString(),
-                   cmbMaPhieuThue.SelectedValue.ToString(), Convert.ToInt32(txtSoNgay.Text), Convert.ToInt32(tt), Convert.ToDateTime(dtNgayTraPhong.Text));
+                        dt.themhd1(Convert.ToInt32(txtMaHoaDon.Text), cmbNhanVien.SelectedValue.ToString(), cmbMaKH.SelectedValue.ToString(),
+                   cmbMaPhieuThue.SelectedValue.ToString(), Convert.ToInt32(txtSoNgay.Text),  txtTienDV.Text,Convert.ToInt32(txtTongTien.Text), Convert.ToDateTime(dtNgayTraPhong.Text));
                         MessageBox.Show("Bạn đã thêm thành công");
                         s = cmbMaPhieuThue.SelectedValue.ToString();
+                        CT_PhieuThue MaLoaiPhhong = dt.CT_PhieuThues.Where(p => p.MaPhieuThue == cmbMaPhieuThue.SelectedValue.ToString()).FirstOrDefault();
+
+                        dt.update_TinhTrangPhongCuaPhong(MaLoaiPhhong.MaPhong.ToString(), "TT3", null);
 
                     }
                   
 
 
 
-                    CT_PhieuThue MaLoaiPhhong = dt.CT_PhieuThues.Where(p => p.MaPhieuThue == cmbMaPhieuThue.SelectedValue.ToString()).FirstOrDefault();
-
-                    dt.update_TinhTrangPhongCuaPhong(MaLoaiPhhong.MaPhong.ToString(), "TT3", null);
+                  
 
                 }
                 
@@ -241,7 +249,7 @@ namespace QUANLYKHACHSAN.User
                 else
                 {
                     dt.suahd(Convert.ToInt32(txtMaHoaDon.Text), cmbNhanVien.SelectedValue.ToString(), cmbMaKH.SelectedValue.ToString(),
-                     cmbMaPhieuThue.SelectedValue.ToString(), Convert.ToInt32(txtSoNgay.Text), Convert.ToInt32(tt), Convert.ToDateTime(dtNgayTraPhong.Text));
+                     cmbMaPhieuThue.SelectedValue.ToString(), Convert.ToInt32(txtSoNgay.Text), Convert.ToInt32(txtTongTien.Text), Convert.ToDateTime(dtNgayTraPhong.Text),txtTienDV.Text);
                     MessageBox.Show("Bạn đã sửa thành công");
                     s = cmbMaPhieuThue.SelectedValue.ToString();
 
@@ -253,12 +261,12 @@ namespace QUANLYKHACHSAN.User
 
                 }
 
-            }    
+            }
 
 
+            dataGridViewX1.DataSource = dt.selectHd1();
 
-
-                dataGridViewX1.DataSource = dt.selectcthd();
+            // dataGridViewX1.DataSource = dt.selectcthd();
             ChiTietHoaDon_User_Load(sender, e);
 
 
@@ -275,16 +283,51 @@ namespace QUANLYKHACHSAN.User
             if (ptp != null)
             {
                 cmbMaKH.SelectedValue = ptp.MaKhachHang;
+                CT_PhieuThue cT_PhieuThue1 = dt.CT_PhieuThues.FirstOrDefault(p => p.MaPhieuThue == mapt);
+                if(cT_PhieuThue1!=null)
+                {
+                    DanhSachDichVu danhSachDichVu = dt.DanhSachDichVus.Where(s => s.SoPhieuThue == cT_PhieuThue1.SoPhieuThue).FirstOrDefault();
+                    if (danhSachDichVu != null)
+                    {
+                        string ds = danhSachDichVu.MaDanhSach;
+                        txtDichVu.Text = danhSachDichVu.MaDanhSach.ToString();
+                        DV dichVu = dt.DVs.Where(s => s.MaDanhSach == danhSachDichVu.MaDanhSach).FirstOrDefault();
+                        if(dichVu !=null)
+                        {
+                            LoaiDV loaiDV = dt.LoaiDVs.Where(s => s.MaLoaiDV == dichVu.MaLoaiDV).FirstOrDefault();
+                            if(loaiDV!=null)
+                            {
+                               TienDVResult tienDVResult = dt.TienDV(ds).FirstOrDefault();
+                                txtTienDV.Text = tienDVResult.Column1.ToString();
+                                
+                               // MessageBox.Show(tienDVResult.Column1.ToString());
+                            }
+                        }    
+                    }
+
+                    else
+                    {
+                        txtTienDV.Text = "0";
+                        txtDichVu.Text = "";
+
+                    }
+
+                }    
+
+               
+
+
             }
+
             CT_PhieuThue cT_PhieuThue = dt.CT_PhieuThues.FirstOrDefault(p => p.MaPhieuThue == mapt);
 
             
-
+           
             if (cT_PhieuThue != null)
             {
                 txtTienPhong.Text = cT_PhieuThue.DonGia.ToString();
                 dateNgayThuePhong.Value =Convert.ToDateTime( cT_PhieuThue.NgayNhanPhong.Value.ToString());
-           
+
                 ////   MessageBox.Show(date.ToString());
                 //MessageBox.Show(date.ToString());
 
@@ -318,10 +361,16 @@ namespace QUANLYKHACHSAN.User
                     tt = Convert.ToInt32(txtSoNgay.Text) * Convert.ToDouble(txtTienPhong.Text);
 
                     txtTongTien.Text = tt.ToString();
-        
-                }              
+                    if (txtTienDV.Text != "")
+                    {
+                        txtTongTien.Text = (Convert.ToInt32(txtTongTien.Text) + Convert.ToInt32(txtTienDV.Text)).ToString();
+                    }
+
+                }   
+                
                 // 
             }
+           
            // MessageBox.Show(date.ToString());
         }
      //   public bool check()
@@ -447,11 +496,42 @@ namespace QUANLYKHACHSAN.User
                 // dateTimePicker1.Value =Convert.ToDateTime( dataGridViewX1.Rows[i].Cells[0].Value.ToString());
                 txtTienPhong.Text = dataGridViewX1.Rows[i].Cells[4].Value.ToString();
                 txtSoNgay.Text = dataGridViewX1.Rows[i].Cells[5].Value.ToString();
-                txtTongTien.Text = dataGridViewX1.Rows[i].Cells[6].Value.ToString();
-                dateTimePicker1.Value = Convert.ToDateTime(dataGridViewX1.Rows[i].Cells[7].Value.ToString());
+                txtTienDV.Text= dataGridViewX1.Rows[i].Cells[6].Value.ToString();
+                txtTongTien.Text = dataGridViewX1.Rows[i].Cells[7].Value.ToString();
+                dateTimePicker1.Value = Convert.ToDateTime(dataGridViewX1.Rows[i].Cells[8].Value.ToString());
                 dtNgayTraPhong.Value = Convert.ToDateTime(dateTimePicker1.Value.ToString());
                 CT_PhieuThue phieu = dt.CT_PhieuThues.FirstOrDefault(p => p.MaPhieuThue == maphieu);
+                if(phieu !=null)
+                {
+                    DanhSachDichVu danhSachDichVu = dt.DanhSachDichVus.Where(s => s.SoPhieuThue == phieu.SoPhieuThue).FirstOrDefault();
+                    if(danhSachDichVu!=null)
+                    {
+                        txtDichVu.Text = danhSachDichVu.MaDanhSach.ToString();
+                        try
+                        {
+                            DV dV = dt.DVs.Where(s => s.MaDanhSach == danhSachDichVu.MaDanhSach).FirstOrDefault();
+                            LoaiDV loaiDV = dt.LoaiDVs.Where(s => s.MaLoaiDV == dV.MaLoaiDV).FirstOrDefault();
+                            if (loaiDV != null)
+                            {
+                                TienDVResult tienDVResult = dt.TienDV(txtDichVu.Text).FirstOrDefault();
+                                txtTienDV.Text = tienDVResult.Column1.ToString();
+
+                                // MessageBox.Show(tienDVResult.Column1.ToString());
+                            }
+
+                        }
+                        catch
+                        {
+
+                        }
+                      
+
+                    }    
+                   
+
+                }    
                 dateNgayThuePhong.Value = Convert.ToDateTime(phieu.NgayNhanPhong.Value.ToString());
+
             }    
 
            // MessageBox.Show(i.ToString());
@@ -462,12 +542,12 @@ namespace QUANLYKHACHSAN.User
         {
             if(txttimKiemHoadoa.Text=="")
             {
-                dataGridViewX1.DataSource = dt.selectcthd();
+               // dataGridViewX1.DataSource = dt.selectcthd();
 
             }  
             else
             {
-                dataGridViewX1.DataSource = dt.selectcthd().Where(s => s.MaHoaDon == Convert.ToInt32(txttimKiemHoadoa.Text)).ToList();
+               // dataGridViewX1.DataSource = dt.selectcthd().Where(s => s.MaHoaDon == Convert.ToInt32(txttimKiemHoadoa.Text)).ToList();
 
             }    
            // dataGridViewX1.DataSource = dt.selectcthd().Where(s => s.MaHoaDon == Convert.ToInt32(txttimKiemHoadoa.Text)).ToList();
@@ -502,6 +582,31 @@ namespace QUANLYKHACHSAN.User
                 }
 
             }
+
+        }
+
+        private void txttimKiemHoadoa_TextChanged(object sender, EventArgs e)
+        {
+            TimKiem(txttimKiemHoadoa.Text.Trim());
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridViewX1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void btnTimMaNPhong_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTongTien_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

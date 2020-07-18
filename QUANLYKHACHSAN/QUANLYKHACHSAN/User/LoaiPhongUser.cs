@@ -34,14 +34,24 @@ namespace QUANLYKHACHSAN.User
                 }    
                 else
                 {
-                    DialogResult xoa = MessageBox.Show("Bạn có muốn Thêm không?", "", MessageBoxButtons.YesNo);
-                    if (xoa == DialogResult.Yes)
+                    var data1 = dt.LoaiPhongs.Where(s => s.MaLoaiPhong == txtMaLoaiPhong.Text.Trim()).FirstOrDefault();
+                    if(data1==null)
                     {
-                        var data = dt.ThemLoaiPhongaaaaaa(txtMaLoaiPhong.Text, txtTenLoaiPhong.Text, Convert.ToInt32(txtDonGia.Text), Convert.ToInt32(txtSoNguoiChuan.Text), Convert.ToInt32(txtSoNguoiToiDa.Text));
+                        DialogResult xoa = MessageBox.Show("Bạn có muốn Thêm không?", "", MessageBoxButtons.YesNo);
+                        if (xoa == DialogResult.Yes)
+                        {
+                            var data = dt.ThemLoaiPhongaaaaaa(txtMaLoaiPhong.Text, txtTenLoaiPhong.Text, Convert.ToInt32(txtDonGia.Text), Convert.ToInt32(txtSoNguoiChuan.Text), Convert.ToInt32(txtSoNguoiToiDa.Text));
 
-                        MessageBox.Show("Thêm Thành Công ?", "Thông Báo", MessageBoxButtons.OK);
+                            MessageBox.Show("Thêm Thành Công ?", "Thông Báo", MessageBoxButtons.OK);
+
+                        }
 
                     }
+                    else
+                    {
+                        MessageBox.Show("Đã Có Loại Phòng Này!");
+                    }
+                   
 
                 }    
                
@@ -189,6 +199,10 @@ namespace QUANLYKHACHSAN.User
             LoaiPhongUser_Load(sender, e);
 
         }
+        public void seaching_LoaiPg(string s)
+        {
+            dataLoaiPhong.DataSource = dt.seaching_loaiPhong(s);
+        }
 
         private void dataLoaiPhong_CellClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -219,7 +233,7 @@ namespace QUANLYKHACHSAN.User
 
         private void txtTimKiem_TextChanged(object sender, EventArgs e)
         {
-
+            seaching_LoaiPg(txtTimKiem.Text.Trim());
         }
     }
 

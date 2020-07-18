@@ -606,6 +606,73 @@
   <data name="&gt;&gt;ribbonPanel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="ribbonBar3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="btnDV.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        gaYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="btnDV.Text" xml:space="preserve">
+    <value>buttonItem17</value>
+  </data>
+  <data name="ribbonBar3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 0</value>
+  </data>
+  <data name="ribbonBar3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="ribbonBar3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 92</value>
+  </data>
+  <data name="ribbonBar3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="ribbonBar3.Text" xml:space="preserve">
+    <value>Dịch Vụ</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar3.Name" xml:space="preserve">
+    <value>ribbonBar3</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar3.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar3.Parent" xml:space="preserve">
+    <value>btnQuanLy</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="btnTraphong.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
   </data>
@@ -637,7 +704,7 @@
     <value>btnQuanLy</value>
   </data>
   <data name="&gt;&gt;btnTraphong.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="btnDangKy.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
@@ -670,7 +737,7 @@
     <value>btnQuanLy</value>
   </data>
   <data name="&gt;&gt;btnDangKy.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="ribbonBarPhong.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
@@ -753,7 +820,7 @@
     <value>btnQuanLy</value>
   </data>
   <data name="&gt;&gt;ribbonBarPhong.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="btnKhacgHang.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
@@ -786,7 +853,7 @@
     <value>btnQuanLy</value>
   </data>
   <data name="&gt;&gt;btnKhacgHang.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="btnQuanLy.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -823,6 +890,167 @@
   </data>
   <data name="&gt;&gt;btnQuanLy.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="ribbonBar13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="btnDoanhThu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="btnDoanhThu.Text" xml:space="preserve">
+    <value>buttonItem1</value>
+  </data>
+  <data name="ribbonBar13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="ribbonBar13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="ribbonBar13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 92</value>
+  </data>
+  <data name="ribbonBar13.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ribbonBar13.Text" xml:space="preserve">
+    <value>Doanh thu</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar13.Name" xml:space="preserve">
+    <value>ribbonBar13</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar13.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar13.Parent" xml:space="preserve">
+    <value>btnThongKe</value>
+  </data>
+  <data name="&gt;&gt;ribbonBar13.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnThongKe.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnThongKe.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnThongKe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 58</value>
+  </data>
+  <data name="btnThongKe.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="btnThongKe.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 0, 3, 2</value>
+  </data>
+  <data name="btnThongKe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>980, 94</value>
+  </data>
+  <data name="btnThongKe.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnThongKe.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnThongKe.Name" xml:space="preserve">
+    <value>btnThongKe</value>
+  </data>
+  <data name="&gt;&gt;btnThongKe.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.RibbonPanel, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnThongKe.Parent" xml:space="preserve">
+    <value>ribbonControl2</value>
+  </data>
+  <data name="&gt;&gt;btnThongKe.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="btnLoaiPhong.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
@@ -1004,168 +1232,7 @@
     <value>ribbonControl2</value>
   </data>
   <data name="&gt;&gt;btnDoanhMuc.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="ribbonBar13.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="btnDoanhThu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
-  </data>
-  <data name="btnDoanhThu.Text" xml:space="preserve">
-    <value>buttonItem1</value>
-  </data>
-  <data name="ribbonBar13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
-  </data>
-  <data name="ribbonBar13.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="ribbonBar13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 92</value>
-  </data>
-  <data name="ribbonBar13.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="ribbonBar13.Text" xml:space="preserve">
-    <value>Doanh thu</value>
-  </data>
-  <data name="&gt;&gt;ribbonBar13.Name" xml:space="preserve">
-    <value>ribbonBar13</value>
-  </data>
-  <data name="&gt;&gt;ribbonBar13.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.RibbonBar, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;ribbonBar13.Parent" xml:space="preserve">
-    <value>btnThongKe</value>
-  </data>
-  <data name="&gt;&gt;ribbonBar13.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btnThongKe.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnThongKe.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="btnThongKe.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 58</value>
-  </data>
-  <data name="btnThongKe.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="btnThongKe.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 0, 3, 2</value>
-  </data>
-  <data name="btnThongKe.Size" type="System.Drawing.Size, System.Drawing">
-    <value>980, 94</value>
-  </data>
-  <data name="btnThongKe.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
-  </data>
-  <data name="btnThongKe.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;btnThongKe.Name" xml:space="preserve">
-    <value>btnThongKe</value>
-  </data>
-  <data name="&gt;&gt;btnThongKe.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.RibbonPanel, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnThongKe.Parent" xml:space="preserve">
-    <value>ribbonControl2</value>
-  </data>
-  <data name="&gt;&gt;btnThongKe.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="ribbonBar2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Left</value>
@@ -1368,7 +1435,7 @@
     <value>ribbonControl2</value>
   </data>
   <data name="&gt;&gt;btnTroGiup.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="ribbonControl2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -2631,6 +2698,9 @@
         /////+A////////////////////4f/////8=
 </value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
@@ -2952,108 +3022,6 @@
   <data name="&gt;&gt;labelItem3.Type" xml:space="preserve">
     <value>DevComponents.DotNetBar.LabelItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;btnNhanVien.Name" xml:space="preserve">
-    <value>btnNhanVien</value>
-  </data>
-  <data name="&gt;&gt;btnNhanVien.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnDangXuat.Name" xml:space="preserve">
-    <value>btnDangXuat</value>
-  </data>
-  <data name="&gt;&gt;btnDangXuat.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnNguoiDung.Name" xml:space="preserve">
-    <value>btnNguoiDung</value>
-  </data>
-  <data name="&gt;&gt;btnNguoiDung.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnDoiMatKhau.Name" xml:space="preserve">
-    <value>btnDoiMatKhau</value>
-  </data>
-  <data name="&gt;&gt;btnDoiMatKhau.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnDangNhap.Name" xml:space="preserve">
-    <value>btnDangNhap</value>
-  </data>
-  <data name="&gt;&gt;btnDangNhap.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnnLoaiPhong.Name" xml:space="preserve">
-    <value>btnnLoaiPhong</value>
-  </data>
-  <data name="&gt;&gt;btnnLoaiPhong.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnKHNhanPhong.Name" xml:space="preserve">
-    <value>btnKHNhanPhong</value>
-  </data>
-  <data name="&gt;&gt;btnKHNhanPhong.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnKHDangKy.Name" xml:space="preserve">
-    <value>btnKHDangKy</value>
-  </data>
-  <data name="&gt;&gt;btnKHDangKy.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnnTraPhong.Name" xml:space="preserve">
-    <value>btnnTraPhong</value>
-  </data>
-  <data name="&gt;&gt;btnnTraPhong.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnDangKi.Name" xml:space="preserve">
-    <value>btnDangKi</value>
-  </data>
-  <data name="&gt;&gt;btnDangKi.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnPhong.Name" xml:space="preserve">
-    <value>btnPhong</value>
-  </data>
-  <data name="&gt;&gt;btnPhong.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnKhachHang.Name" xml:space="preserve">
-    <value>btnKhachHang</value>
-  </data>
-  <data name="&gt;&gt;btnKhachHang.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnDoanhThu.Name" xml:space="preserve">
-    <value>btnDoanhThu</value>
-  </data>
-  <data name="&gt;&gt;btnDoanhThu.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;buttonItem16.Name" xml:space="preserve">
-    <value>buttonItem16</value>
-  </data>
-  <data name="&gt;&gt;buttonItem16.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;buttonItem17.Name" xml:space="preserve">
-    <value>buttonItem17</value>
-  </data>
-  <data name="&gt;&gt;buttonItem17.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;buttonHuongDan.Name" xml:space="preserve">
-    <value>buttonHuongDan</value>
-  </data>
-  <data name="&gt;&gt;buttonHuongDan.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;btnQuiDinh.Name" xml:space="preserve">
-    <value>btnQuiDinh</value>
-  </data>
-  <data name="&gt;&gt;btnQuiDinh.Type" xml:space="preserve">
-    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
-  </data>
   <data name="&gt;&gt;ribbonTabItem10.Name" xml:space="preserve">
     <value>ribbonTabItem10</value>
   </data>
@@ -3101,6 +3069,114 @@
   </data>
   <data name="&gt;&gt;timer1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNhanVien.Name" xml:space="preserve">
+    <value>btnNhanVien</value>
+  </data>
+  <data name="&gt;&gt;btnNhanVien.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnDangXuat.Name" xml:space="preserve">
+    <value>btnDangXuat</value>
+  </data>
+  <data name="&gt;&gt;btnDangXuat.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnNguoiDung.Name" xml:space="preserve">
+    <value>btnNguoiDung</value>
+  </data>
+  <data name="&gt;&gt;btnNguoiDung.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnDoiMatKhau.Name" xml:space="preserve">
+    <value>btnDoiMatKhau</value>
+  </data>
+  <data name="&gt;&gt;btnDoiMatKhau.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnDangNhap.Name" xml:space="preserve">
+    <value>btnDangNhap</value>
+  </data>
+  <data name="&gt;&gt;btnDangNhap.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnnTraPhong.Name" xml:space="preserve">
+    <value>btnnTraPhong</value>
+  </data>
+  <data name="&gt;&gt;btnnTraPhong.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnDangKi.Name" xml:space="preserve">
+    <value>btnDangKi</value>
+  </data>
+  <data name="&gt;&gt;btnDangKi.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnPhong.Name" xml:space="preserve">
+    <value>btnPhong</value>
+  </data>
+  <data name="&gt;&gt;btnPhong.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnKhachHang.Name" xml:space="preserve">
+    <value>btnKhachHang</value>
+  </data>
+  <data name="&gt;&gt;btnKhachHang.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnDoanhThu.Name" xml:space="preserve">
+    <value>btnDoanhThu</value>
+  </data>
+  <data name="&gt;&gt;btnDoanhThu.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnnLoaiPhong.Name" xml:space="preserve">
+    <value>btnnLoaiPhong</value>
+  </data>
+  <data name="&gt;&gt;btnnLoaiPhong.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnKHNhanPhong.Name" xml:space="preserve">
+    <value>btnKHNhanPhong</value>
+  </data>
+  <data name="&gt;&gt;btnKHNhanPhong.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnKHDangKy.Name" xml:space="preserve">
+    <value>btnKHDangKy</value>
+  </data>
+  <data name="&gt;&gt;btnKHDangKy.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonItem16.Name" xml:space="preserve">
+    <value>buttonItem16</value>
+  </data>
+  <data name="&gt;&gt;buttonItem16.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonItem17.Name" xml:space="preserve">
+    <value>buttonItem17</value>
+  </data>
+  <data name="&gt;&gt;buttonItem17.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;buttonHuongDan.Name" xml:space="preserve">
+    <value>buttonHuongDan</value>
+  </data>
+  <data name="&gt;&gt;buttonHuongDan.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnQuiDinh.Name" xml:space="preserve">
+    <value>btnQuiDinh</value>
+  </data>
+  <data name="&gt;&gt;btnQuiDinh.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnDV.Name" xml:space="preserve">
+    <value>btnDV</value>
+  </data>
+  <data name="&gt;&gt;btnDV.Type" xml:space="preserve">
+    <value>DevComponents.DotNetBar.ButtonItem, DevComponents.DotNetBar2, Version=7.5.0.1, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>frmMain</value>

@@ -1,4 +1,4 @@
-﻿kousing System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
@@ -108,6 +108,15 @@ namespace QUANLYKHACHSAN.User
         }
 
         string ttcu;
+        public bool check()
+        {
+            var data = dt.Phongs.Where(s => s.MaPhong == txtMaPhong.Text.Trim()).FirstOrDefault();
+            if(data==null)
+            {
+                return true;
+            }    
+            return false;
+        }
 
         private void bindingNavigatorAddNewItem_Click(object sender, EventArgs e)
         {
@@ -119,14 +128,32 @@ namespace QUANLYKHACHSAN.User
         {
             if (i == 1)
             {
-                DialogResult xoa = MessageBox.Show("bạn có muốn Thêm không?", "", MessageBoxButtons.YesNo);
-                if (xoa == DialogResult.Yes)
+                if(check()==true)
                 {
+                    if(txtMaPhong.Text.Trim()==""|| cmbMaLPhong.Text.Trim()==""|| cmbMaTTrPhong.Text.Trim()=="")
+                    {
+                        MessageBox.Show("Bạn Hãy Nhập Đầy Đủ Thông Tin!", "Thông báo", MessageBoxButtons.OK);
+                    }
+                    else
+                    {
+                        DialogResult xoa = MessageBox.Show("bạn có muốn Thêm không?", "", MessageBoxButtons.YesNo);
+                        if (xoa == DialogResult.Yes)
+                        {
 
-                    dt.themPhong(txtMaPhong.Text, cmbMaLPhong.SelectedValue.ToString(), cmbMaTTrPhong.SelectedValue.ToString(), null);
+                            dt.themPhong(txtMaPhong.Text, cmbMaLPhong.SelectedValue.ToString(), cmbMaTTrPhong.SelectedValue.ToString(), null);
 
+
+                        }
+
+                    }
+                  
 
                 }
+                else
+                {
+                    MessageBox.Show("Phòng đã tôn tại không thể thêm!", "Thông Báo!", MessageBoxButtons.OK);
+                }
+              
 
             }
             else if (i == 2)
@@ -178,7 +205,10 @@ namespace QUANLYKHACHSAN.User
 
 
         }
-
+        public void seaching_Phong(string s)
+        {
+            dataGridViewphong.DataSource = dt.Seaching_Phong(s);
+        }
         private void txtGhichu_TextChanged(object sender, EventArgs e)
         {
             //txtGhichu.Text = cmbMaTTrPhong.Text;
@@ -218,14 +248,29 @@ namespace QUANLYKHACHSAN.User
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
-            DialogResult xoa = MessageBox.Show("bạn có muốn xóa không?", "", MessageBoxButtons.YesNo);
-            if (xoa == DialogResult.Yes)
+            CT_PhieuThue cT_PhieuThue = dt.CT_PhieuThues.Where(s => s.MaPhong == txtMaPhong.Text.Trim()).FirstOrDefault();
+            if(cT_PhieuThue==null)
             {
-                dt.deletePhong(txtMaPhong.Text);
+                DialogResult xoa = MessageBox.Show("bạn có muốn xóa không?", "", MessageBoxButtons.YesNo);
+                if (xoa == DialogResult.Yes)
+                {
+                    dt.deletePhong(txtMaPhong.Text);
+
+                }
 
             }
+            else
+            {
+                MessageBox.Show("Không Xóa Được", "Thông Báo !", MessageBoxButtons.OK);
+            }
+          
             UserPhong_Load(sender, e);
 
+        }
+
+        private void textBoxX1_TextChanged(object sender, EventArgs e)
+        {
+            seaching_Phong(txtTimKiem.Text.Trim());
         }
     }
 }

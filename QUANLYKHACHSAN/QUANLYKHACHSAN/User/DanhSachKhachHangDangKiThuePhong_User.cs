@@ -30,6 +30,10 @@ namespace QUANLYKHACHSAN.User
             dataGridViewX1.DataSource = dt.PhieuThuePhongs.ToList();
 
         }
+        public void seaching_PhieuThue(string s)
+        {
+            dataGridViewX1.DataSource = dt.seaching_PhieuThuePhong(s);
+        }
 
         private void btnSua_Click(object sender, EventArgs e)
         {
@@ -71,6 +75,11 @@ namespace QUANLYKHACHSAN.User
                     worksheet.Cells[i + 4, j + 5] = dataGridViewX1.Rows[i].Cells[j].Value;
                 }
             }
+        }
+
+        private void txttimKiemHoadoa_TextChanged(object sender, EventArgs e)
+        {
+            seaching_PhieuThue(txttimKiemHoadoa.Text.Trim());
         }
     }
 }
