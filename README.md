@@ -9,7 +9,7 @@ Lớp: công nghệ thông tin k58
 - Ngôn ngữ lập trình c#, công nghệ hổ trợ Linq
 
  Phần 2: Các chức năng đã hoàn thành
-1. Về cơ bản đã hoàn thành xong các chức thêm sửa xóa
+1. Về cơ bản đã hoàn thành xong các chức năng thêm sửa xóa
 2. Làm được quy trình thuê trả phòng, sử dụng các dịch vụ của khách sạn
 3. Người dùng sử dụng hệ thống quên mật khẩu thì sẽ lấy lại được mật khẩu qua gmail
 4. Xuất báo cáo doanh thu theo tháng của từng loại phòng
